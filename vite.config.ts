@@ -29,4 +29,10 @@ export default defineConfig({
   fmt: {
     ignorePatterns: ["*.md"],
   },
+  lint: {
+    options: {
+      typeAware: true,
+      typeCheck: true,
+    },
+  },
 });

@@ -1,3 +1,4 @@
+// @ts-ignore europa ships types for the public entrypoint, not this ESM subpath.
 import Europa from "europa/lib/esm/europa.mjs";
 
 const NOTION_PAGE_SELECTORS = [
@@ -213,7 +214,12 @@ const normalizeListBlocks = (root: HTMLElement): void => {
       block.remove();
     }
 
-    currentList.append(createListItem(root, block, blockType));
+    const list = currentList;
+    if (!list) {
+      return;
+    }
+
+    list.append(createListItem(root, block, blockType));
   });
 };
 
