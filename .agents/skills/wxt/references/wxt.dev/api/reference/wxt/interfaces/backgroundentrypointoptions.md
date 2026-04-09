@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointop
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BackgroundEntrypointOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BackgroundEntrypointOptions
@@ -14,16 +12,16 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#properties)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#include)
-  + [persistent](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#persistent)
-  + [type](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#type)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#properties)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#include)
+  - [persistent](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#persistent)
+  - [type](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#type)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#extends)
 
-* [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
+- [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html#properties)
 

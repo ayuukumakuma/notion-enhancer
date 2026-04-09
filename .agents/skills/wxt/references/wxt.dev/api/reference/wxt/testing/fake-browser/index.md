@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/testing/fake-browser/index"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/testing/fake-browser.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/testing/fake-browser
@@ -18,9 +16,9 @@ This module is just a re-export of [@webext-core/fake-browser](https://webext-co
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#contents)
 
-* [References](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#references)
-  + [FakeBrowser](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#fakebrowser)
-  + [fakeBrowser](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#fakebrowser)
+- [References](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#references)
+  - [FakeBrowser](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#fakebrowser)
+  - [fakeBrowser](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#fakebrowser)
 
 ## References [​](https://wxt.dev/api/reference/wxt/testing/fake-browser/index.html#references)
 

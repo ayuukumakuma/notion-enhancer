@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/PopupEntrypointOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > PopupEntrypointOptions
@@ -14,20 +12,20 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#properties)
-  + [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#browserstyle)
-  + [defaultArea](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaultarea)
-  + [defaultIcon](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaulticon)
-  + [defaultTitle](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaulttitle)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#include)
-  + [mv2Key](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#mv2key)
-  + [themeIcons](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#themeicons)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#properties)
+  - [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#browserstyle)
+  - [defaultArea](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaultarea)
+  - [defaultIcon](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaulticon)
+  - [defaultTitle](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#defaulttitle)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#include)
+  - [mv2Key](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#mv2key)
+  - [themeIcons](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#themeicons)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#extends)
 
-* [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
+- [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#properties)
 
@@ -129,7 +127,7 @@ undefined
 
 > **mv2Key**?: [`PerBrowserOption`](https://wxt.dev/api/reference/wxt/type-aliases/perbrowseroption.html)<`"browser_action"` | `"page_action"`>
 
-Defaults to "browser\_action" to be equivalent to MV3's "action" key
+Defaults to "browser_action" to be equivalent to MV3's "action" key
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html#source-6)
 

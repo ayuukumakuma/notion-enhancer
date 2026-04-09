@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/publishing"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/publishing.md for this page in Markdown format
 
 # Publishing [​](https://wxt.dev/guide/essentials/publishing.html#publishing)
@@ -18,16 +16,16 @@ If you're publishing an extension to a store for the first time, you must manual
 
 For specific details about each store, see the stores sections below.
 
-* [Chrome Web Store](https://wxt.dev/guide/essentials/publishing.html#chrome-web-store)
-* [Firefox Addon Store](https://wxt.dev/guide/essentials/publishing.html#firefox-addon-store)
-* [Edge Addons](https://wxt.dev/guide/essentials/publishing.html#edge-addons)
+- [Chrome Web Store](https://wxt.dev/guide/essentials/publishing.html#chrome-web-store)
+- [Firefox Addon Store](https://wxt.dev/guide/essentials/publishing.html#firefox-addon-store)
+- [Edge Addons](https://wxt.dev/guide/essentials/publishing.html#edge-addons)
 
 ## Automation [​](https://wxt.dev/guide/essentials/publishing.html#automation)
 
 WXT provides two commands to help automate submitting a new version for review and publishing:
 
-* `wxt submit init`: Setup all the required secrets and options for the `wxt submit` command
-* `wxt submit`: Submit new versions of your extension for review (and publish them automatically once approved)
+- `wxt submit init`: Setup all the required secrets and options for the `wxt submit` command
+- `wxt submit`: Submit new versions of your extension for review (and publish them automatically once approved)
 
 To get started, run `wxt submit init` and follow the prompts, or run `wxt submit --help` to view all available options. Once finished, you should have a `.env.submit` file! WXT will use this file to submit your updates.
 
@@ -120,8 +118,8 @@ jobs:
 
 The action above lays the foundation for a basic workflow, including `zip` and `submit` steps. To further enhance your GitHub Action and delve into more complex scenarios, consider exploring the following examples from real projects. They introduce advanced features such as version management, changelog generation, and GitHub releases, tailored for different needs:
 
-* [`aklinker1/github-better-line-counts`](https://github.com/aklinker1/github-better-line-counts/blob/main/.github/workflows/submit.yml) - Conventional commits, automated version bump and changelog generation, triggered manually, optional dry run for testing
-* [`GuiEpi/plex-skipper`](https://github.com/GuiEpi/plex-skipper/blob/main/.github/workflows/deploy.yml) - Triggered automatically when `package.json` version is changed, creates and uploads artifacts to GitHub release.
+- [`aklinker1/github-better-line-counts`](https://github.com/aklinker1/github-better-line-counts/blob/main/.github/workflows/submit.yml) - Conventional commits, automated version bump and changelog generation, triggered manually, optional dry run for testing
+- [`GuiEpi/plex-skipper`](https://github.com/GuiEpi/plex-skipper/blob/main/.github/workflows/deploy.yml) - Triggered automatically when `package.json` version is changed, creates and uploads artifacts to GitHub release.
 
 > These examples are designed to provide clear insights and are a good starting point for customizing your own workflows. Feel free to explore and adapt them to your project needs.
 
@@ -236,7 +234,7 @@ WXT uses the command `npm pack <package-name>` to download the package. That mea
 
 WXT does not currently support automated publishing for Safari. Safari extensions require a native MacOS or iOS app wrapper, which WXT does not create yet. For now, if you want to publish to Safari, follow this guide:
 
-* [Converting a web extension for Safari](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari) - "Convert your existing extension to a Safari web extension using Xcode’s command-line tool."
+- [Converting a web extension for Safari](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari) - "Convert your existing extension to a Safari web extension using Xcode’s command-line tool."
 
 When running the `safari-web-extension-converter` CLI tool, pass the `.output/safari-mv2` or `.output/safari-mv3` directory, not your source code directory.
 

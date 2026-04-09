@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BaseEntrypointOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BaseEntrypointOptions
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#contents)
 
-* [Extended By](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#extended-by)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#properties)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#include)
+- [Extended By](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#extended-by)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#properties)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#include)
 
 ## Extended By [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#extended-by)
 
-* [`BackgroundEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html)
-* [`BaseScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/basescriptentrypointoptions.html)
-* [`PopupEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html)
-* [`OptionsEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html)
-* [`SidepanelEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html)
+- [`BackgroundEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html)
+- [`BaseScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/basescriptentrypointoptions.html)
+- [`PopupEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/popupentrypointoptions.html)
+- [`OptionsEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html)
+- [`SidepanelEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html#properties)
 

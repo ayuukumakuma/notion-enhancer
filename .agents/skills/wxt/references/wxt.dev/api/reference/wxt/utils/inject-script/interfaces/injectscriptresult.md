@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/in
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/inject-script/interfaces/InjectScriptResult.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/inject-script](https://wxt.dev/api/reference/wxt/utils/inject-script/index.html) > InjectScriptResult
@@ -14,8 +12,8 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#properties)
-  + [script](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#script)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#properties)
+  - [script](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#script)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html#properties)
 

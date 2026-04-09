@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/runtime"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/runtime.md for this page in Markdown format
 
 # Runtime Config [​](https://wxt.dev/guide/essentials/config/runtime.html#runtime-config)
@@ -67,6 +65,6 @@ export default defineAppConfig({
 
 This has several advantages:
 
-* Define all expected environment variables in a single file
-* Convert strings to other types, like booleans or arrays
-* Provide default values if an environment variable is not provided
+- Define all expected environment variables in a single file
+- Convert strings to other types, like booleans or arrays
+- Provide default values if an environment variable is not provided

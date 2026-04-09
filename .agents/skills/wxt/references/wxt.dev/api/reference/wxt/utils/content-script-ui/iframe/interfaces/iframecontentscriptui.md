@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/in
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/iframe/interfaces/IframeContentScriptUi.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/iframe](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/index.html) > IframeContentScriptUi
@@ -14,19 +12,19 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#extends)
-* [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#properties)
-  + [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#automount)
-  + [iframe](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#iframe)
-  + [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#mount)
-  + [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#mounted)
-  + [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#remove)
-  + [wrapper](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#wrapper)
+- [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#extends)
+- [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#properties)
+  - [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#automount)
+  - [iframe](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#iframe)
+  - [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#mount)
+  - [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#mounted)
+  - [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#remove)
+  - [wrapper](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#wrapper)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#extends)
 
-* [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
+- [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html#type-parameters)
 

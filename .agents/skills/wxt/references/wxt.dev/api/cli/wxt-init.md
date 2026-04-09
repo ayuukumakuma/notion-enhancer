@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/cli/wxt-init"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/cli/wxt-init.md for this page in Markdown format
 
 # `wxt init` [​](https://wxt.dev/api/cli/wxt-init.html#wxt-init)

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/browser-startup"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/browser-startup.md for this page in Markdown format
 
 # Browser Startup [​](https://wxt.dev/guide/essentials/config/browser-startup.html#browser-startup)
@@ -31,6 +29,7 @@ You can configure browser startup in 3 places:
      // ...
    });
    ```
+
 2. `<rootDir>/wxt.config.ts`: Via the [`webExt` config](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#webext), included in version control
 3. `$HOME/web-ext.config.ts`: Provide default values for all WXT projects on your computer
 

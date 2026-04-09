@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/modules/functions/addimportpreset
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/modules/functions/addImportPreset.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/modules](https://wxt.dev/api/reference/wxt/modules/index.html) > addImportPreset
@@ -18,8 +16,8 @@ Add an Unimport preset ([built-in](https://github.com/unjs/unimport?tab=readme-o
 
 Some things to note:
 
-* This function will only de-duplicate built-in preset names. It will not stop you adding duplicate custom or auto-scanned presets.
-* If the project has disabled imports, this function has no effect.
+- This function will only de-duplicate built-in preset names. It will not stop you adding duplicate custom or auto-scanned presets.
+- If the project has disabled imports, this function has no effect.
 
 ## Parameters [​](https://wxt.dev/api/reference/wxt/modules/functions/addimportpreset.html#parameters)
 

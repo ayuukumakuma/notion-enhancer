@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceent
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtDirTypeReferenceEntry.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtDirTypeReferenceEntry
@@ -16,8 +14,8 @@ Represents type reference to a node module to be added to `.wxt/wxt.d.ts` file
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#properties)
-  + [module](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#module)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#properties)
+  - [module](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#module)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxtdirtypereferenceentry.html#properties)
 

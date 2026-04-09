@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtPackageManager.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtPackageManager
@@ -16,27 +14,27 @@ Package management utils built on top of [`nypm`](https://www.npmjs.com/package/
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#properties)
-  + [addDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#adddependency)
-  + [addDevDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#adddevdependency)
-  + [buildMeta](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#buildmeta)
-  + [command](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#command)
-  + [downloadDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#downloaddependency)
-  + [ensureDependencyInstalled](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#ensuredependencyinstalled)
-  + [files](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#files)
-  + [installDependencies](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#installdependencies)
-  + [listDependencies](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#listdependencies)
-  + [lockFile](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#lockfile)
-  + [majorVersion](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#majorversion)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#name)
-  + [overridesKey](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#overrideskey)
-  + [removeDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#removedependency)
-  + [version](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#version)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#properties)
+  - [addDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#adddependency)
+  - [addDevDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#adddevdependency)
+  - [buildMeta](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#buildmeta)
+  - [command](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#command)
+  - [downloadDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#downloaddependency)
+  - [ensureDependencyInstalled](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#ensuredependencyinstalled)
+  - [files](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#files)
+  - [installDependencies](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#installdependencies)
+  - [listDependencies](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#listdependencies)
+  - [lockFile](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#lockfile)
+  - [majorVersion](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#majorversion)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#name)
+  - [overridesKey](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#overrideskey)
+  - [removeDependency](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#removedependency)
+  - [version](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#version)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#extends)
 
-* `PackageManager`
+- `PackageManager`
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#properties)
 
@@ -94,7 +92,7 @@ Nypm.PackageManager.buildMeta
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-2)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:7
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:7
 
 ---
 
@@ -108,7 +106,7 @@ Nypm.PackageManager.command
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-3)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:5
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:5
 
 ---
 
@@ -166,7 +164,7 @@ Nypm.PackageManager.files
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-6)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:10
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:10
 
 ---
 
@@ -220,7 +218,7 @@ Nypm.PackageManager.lockFile
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-9)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:9
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:9
 
 ---
 
@@ -234,7 +232,7 @@ Nypm.PackageManager.majorVersion
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-10)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:8
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:8
 
 ---
 
@@ -248,7 +246,7 @@ Nypm.PackageManager.name
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-11)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:4
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:4
 
 ---
 
@@ -296,7 +294,7 @@ Nypm.PackageManager.version
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxtpackagemanager.html#source-14)
 
-node\_modules/.pnpm/nypm@0.6.5/node\_modules/nypm/dist/index.d.mts:6
+node_modules/.pnpm/nypm@0.6.5/node_modules/nypm/dist/index.d.mts:6
 
 ---
 

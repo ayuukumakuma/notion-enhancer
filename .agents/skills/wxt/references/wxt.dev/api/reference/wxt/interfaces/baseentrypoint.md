@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BaseEntrypoint.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BaseEntrypoint
@@ -14,22 +12,22 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#contents)
 
-* [Extended By](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#extended-by)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#properties)
-  + [inputPath](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#inputpath)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#name)
-  + [outputDir](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#outputdir)
-  + [skipped](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#skipped)
+- [Extended By](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#extended-by)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#properties)
+  - [inputPath](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#inputpath)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#name)
+  - [outputDir](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#outputdir)
+  - [skipped](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#skipped)
 
 ## Extended By [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#extended-by)
 
-* [`GenericEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html)
-* [`UnlistedScriptEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptentrypoint.html)
-* [`BackgroundEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypoint.html)
-* [`ContentScriptEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/contentscriptentrypoint.html)
-* [`PopupEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html)
-* [`OptionsEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypoint.html)
-* [`SidepanelEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypoint.html)
+- [`GenericEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html)
+- [`UnlistedScriptEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptentrypoint.html)
+- [`BackgroundEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypoint.html)
+- [`ContentScriptEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/contentscriptentrypoint.html)
+- [`PopupEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html)
+- [`OptionsEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypoint.html)
+- [`SidepanelEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypoint.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html#properties)
 
@@ -53,14 +51,14 @@ The entrypoint's name. This is the filename or dirname without the type suffix.
 
 Examples:
 
-* `popup.html` → `popup`
-* `options/index.html` → `options`
-* `named.sandbox.html` → `named`
-* `named.sandbox/index.html` → `named`
-* `sandbox.html` → `sandbox`
-* `sandbox/index.html` → `sandbox`
-* `overlay.content.ts` → `overlay`
-* `overlay.content/index.ts` → `overlay`
+- `popup.html` → `popup`
+- `options/index.html` → `options`
+- `named.sandbox.html` → `named`
+- `named.sandbox/index.html` → `named`
+- `sandbox.html` → `sandbox`
+- `sandbox/index.html` → `sandbox`
+- `overlay.content.ts` → `overlay`
+- `overlay.content/index.ts` → `overlay`
 
 The name is used when generating an output file: `<entrypoint.outputDir>/<entrypoint.name>.<ext>`
 

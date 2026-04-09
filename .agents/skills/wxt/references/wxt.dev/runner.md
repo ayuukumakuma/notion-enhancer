@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/runner"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /runner.md for this page in Markdown format
 
 # `@wxt-dev/runner` [​](https://wxt.dev/runner.html#wxt-dev-runner)
@@ -46,31 +44,31 @@ await run({
 
 ## Features [​](https://wxt.dev/runner.html#features)
 
-* Supports all Chromium and Firefox based browsers
-* Zero dependencies
-* One-line config for persisting data between launches
+- Supports all Chromium and Firefox based browsers
+- Zero dependencies
+- One-line config for persisting data between launches
 
 ## Requirements [​](https://wxt.dev/runner.html#requirements)
 
 `@wxt-dev/runner` requires a JS runtime that implements the `WebSocket` standard:
 
-| JS Runtime | Version |
-| --- | --- |
-| NodeJS | ≥ 22.4.0 |
-| Bun | ≥ 1.2.0 |
+| JS Runtime | Version  |
+| ---------- | -------- |
+| NodeJS     | ≥ 22.4.0 |
+| Bun        | ≥ 1.2.0  |
 
 You also need to have a specific version of the browser installed that supports the latest features so extensions can be loaded:
 
-| Browser | Version |
-| --- | --- |
+| Browser  | Version |
+| -------- | ------- |
 | Chromium | Unknown |
-| Firefox | ≥ 139 |
+| Firefox  | ≥ 139   |
 
 ## TODO [​](https://wxt.dev/runner.html#todo)
 
-* [x] Provide install functions to allow hooking into already running instances of Chrome/Firefox
-  + [ ] Try to setup E2E tests on Firefox with Puppeteer using this approach
-  + [ ] Try to setup E2E tests on Chrome with Puppeteer using this approach
+- [x] Provide install functions to allow hooking into already running instances of Chrome/Firefox
+  - [ ] Try to setup E2E tests on Firefox with Puppeteer using this approach
+  - [ ] Try to setup E2E tests on Chrome with Puppeteer using this approach
 
 ## Options [​](https://wxt.dev/runner.html#options)
 
@@ -107,9 +105,9 @@ await run({
 });
 ```
 
-* `"none"` (default): Use a brand new browser profile every time the browser is opened (stored in the system's tmp directory)
-* `"project"`: Create a new profile that is re-used for your current directory (by default stored in `.wxt-runner` or `.wxt/runner` for WXT projects)
-* `"user"`: Create a new profile that is re-used for all projects using `@wxt-dev/runner` (by default stored in `$HOME/.wxt-runner`)
+- `"none"` (default): Use a brand new browser profile every time the browser is opened (stored in the system's tmp directory)
+- `"project"`: Create a new profile that is re-used for your current directory (by default stored in `.wxt-runner` or `.wxt/runner` for WXT projects)
+- `"user"`: Create a new profile that is re-used for all projects using `@wxt-dev/runner` (by default stored in `$HOME/.wxt-runner`)
 
 These presets configure different flags for different operating systems when spawning the browser process.
 
@@ -119,9 +117,9 @@ If you want to customize your data persistence beyond what these presets define,
 
 `@wxt-dev/runner` will look for browser binaries/executables in [a hard-coded list of paths](https://github.com/wxt-dev/wxt/blob/main/packages/runner/src/browser-paths.ts). It does not and will not explore your filesystem/`$PATH` to find where the browser is installed. That means there are times you will need to specify the path to a browser's binary on your system:
 
-* Your browser's path is non-standard or missing from the hard-coded list.
-* You want to use a specific version/release of the browser.
-* You're using a less popular browser and `@wxt-dev/runner` doesn't have hard-coded paths for it.
+- Your browser's path is non-standard or missing from the hard-coded list.
+- You want to use a specific version/release of the browser.
+- You're using a less popular browser and `@wxt-dev/runner` doesn't have hard-coded paths for it.
 
 To do this, use the `browserBinaries` option and set the path to the browser's binary:
 

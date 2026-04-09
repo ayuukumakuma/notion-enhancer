@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/inject-script/index"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/inject-script.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/inject-script
@@ -16,16 +14,16 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Interfaces [​](https://wxt.dev/api/reference/wxt/utils/inject-script/index.html#interfaces)
 
-* [InjectScriptOptions](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptoptions.html)
-* [InjectScriptResult](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html)
+- [InjectScriptOptions](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptoptions.html)
+- [InjectScriptResult](https://wxt.dev/api/reference/wxt/utils/inject-script/interfaces/injectscriptresult.html)
 
 ### Type Aliases [​](https://wxt.dev/api/reference/wxt/utils/inject-script/index.html#type-aliases)
 
-* [ScriptPublicPath](https://wxt.dev/api/reference/wxt/utils/inject-script/type-aliases/scriptpublicpath.html)
+- [ScriptPublicPath](https://wxt.dev/api/reference/wxt/utils/inject-script/type-aliases/scriptpublicpath.html)
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/inject-script/index.html#functions)
 
-* [injectScript](https://wxt.dev/api/reference/wxt/utils/inject-script/functions/injectscript.html)
+- [injectScript](https://wxt.dev/api/reference/wxt/utils/inject-script/functions/injectscript.html)
 
 ---
 

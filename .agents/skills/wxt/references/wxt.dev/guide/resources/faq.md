@@ -4,22 +4,20 @@ source_url: "https://wxt.dev/guide/resources/faq"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/resources/faq.md for this page in Markdown format
 
 # FAQ [​](https://wxt.dev/guide/resources/faq.html#faq)
 
 Commonly asked questions about how to use WXT or why it behaves the way it does.
 
-* [Why aren't content scripts added to the manifest?](https://wxt.dev/guide/resources/faq.html#why-aren-t-content-scripts-added-to-the-manifest)
-* [How do I disable opening the browser automatically during development?](https://wxt.dev/guide/resources/faq.html#how-do-i-disable-opening-the-browser-automatically-during-development)
-* [How do I stay logged into a website during development?](https://wxt.dev/guide/resources/faq.html#how-do-i-stay-logged-into-a-website-during-development)
-* [My component library doesn't work in content scripts](https://wxt.dev/guide/resources/faq.html#my-component-library-doesn-t-work-in-content-scripts)
-* [Does WXT provide docs for LLMs?](https://wxt.dev/guide/resources/faq.html#does-wxt-provide-docs-for-llms)
-* [Is there an LLM trained on WXT's docs that I chat with?](https://wxt.dev/guide/resources/faq.html#is-there-an-llm-trained-on-wxt-s-docs-that-i-chat-with)
-* [How do I run my WXT project with docker / devcontainers?](https://wxt.dev/guide/resources/faq.html#how-do-i-run-my-wxt-project-with-docker-devcontainers)
-* [How do I use the new Prompt API in Chrome?](https://wxt.dev/guide/resources/faq.html#how-do-i-use-the-new-prompt-api-in-chrome)
+- [Why aren't content scripts added to the manifest?](https://wxt.dev/guide/resources/faq.html#why-aren-t-content-scripts-added-to-the-manifest)
+- [How do I disable opening the browser automatically during development?](https://wxt.dev/guide/resources/faq.html#how-do-i-disable-opening-the-browser-automatically-during-development)
+- [How do I stay logged into a website during development?](https://wxt.dev/guide/resources/faq.html#how-do-i-stay-logged-into-a-website-during-development)
+- [My component library doesn't work in content scripts](https://wxt.dev/guide/resources/faq.html#my-component-library-doesn-t-work-in-content-scripts)
+- [Does WXT provide docs for LLMs?](https://wxt.dev/guide/resources/faq.html#does-wxt-provide-docs-for-llms)
+- [Is there an LLM trained on WXT's docs that I chat with?](https://wxt.dev/guide/resources/faq.html#is-there-an-llm-trained-on-wxt-s-docs-that-i-chat-with)
+- [How do I run my WXT project with docker / devcontainers?](https://wxt.dev/guide/resources/faq.html#how-do-i-run-my-wxt-project-with-docker-devcontainers)
+- [How do I use the new Prompt API in Chrome?](https://wxt.dev/guide/resources/faq.html#how-do-i-use-the-new-prompt-api-in-chrome)
 
 ## Why aren't content scripts added to the manifest? [​](https://wxt.dev/guide/resources/faq.html#why-aren-t-content-scripts-added-to-the-manifest)
 
@@ -52,10 +50,9 @@ This is usually caused by one of two things (or both) when using `createShadowRo
    Some component libraries manually add CSS to the page by adding a `<style>` or `<link>` element. They place this element in the document's `<head>` by default. This causes your styles to be placed outside the `ShadowRoot` and it's isolation blocks the styles from being applied to your UI.
 
    When a library does this, **you need to tell the library where to put its styles**. Here's the documentation for a few popular component libraries:
-
-   * Ant Design: [`StyleProvider`](https://ant.design/docs/react/compatible-style#shadow-dom-usage)
-   * Mantine: [`MantineProvider#getRootElement` and `MantineProvider#cssVariablesSelector`](https://mantine.dev/theming/mantine-provider/)
-   > If your library isn't listed above, try searching it's docs/issues for "shadow root", "shadow dom", or "css container". Not all libraries support shadow DOMs, you may have to open an issue to request this feature.
+   - Ant Design: [`StyleProvider`](https://ant.design/docs/react/compatible-style#shadow-dom-usage)
+   - Mantine: [`MantineProvider#getRootElement` and `MantineProvider#cssVariablesSelector`](https://mantine.dev/theming/mantine-provider/)
+     > If your library isn't listed above, try searching it's docs/issues for "shadow root", "shadow dom", or "css container". Not all libraries support shadow DOMs, you may have to open an issue to request this feature.
 
    Here's an example of configuring Antd's styles:
 
@@ -80,6 +77,7 @@ This is usually caused by one of two things (or both) when using `createShadowRo
      },
    });
    ```
+
 2. UI elements are added outside the `ShadowRoot`
 
    Details
@@ -224,6 +222,7 @@ You have two options:
      },
    });
    ```
+
 2. Disable the runner and install your extension in your regular chrome profile manually:
 
    ts

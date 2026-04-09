@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/resources/upgrading"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/resources/upgrading.md for this page in Markdown format
 
 # Upgrading WXT [​](https://wxt.dev/guide/resources/upgrading.html#upgrading-wxt)
@@ -21,6 +19,7 @@ To upgrade WXT to the latest major version:
    ```
    pnpm i wxt@latest --ignore-scripts
    ```
+
 2. Follow the upgrade steps below to fix any breaking changes.
 3. Run `wxt prepare`. It should succeed and type errors will go away afterwords.
 
@@ -29,6 +28,7 @@ To upgrade WXT to the latest major version:
    ```
    pnpm wxt prepare
    ```
+
 4. Manually test to make sure both dev mode and production builds work.
 
 For minor or patch version updates, there are no special steps. Just update it with your package manager:
@@ -64,9 +64,8 @@ See <https://github.com/wxt-dev/wxt/issues/784>
 To upgrade, you have two options:
 
 1. **Stop using the polyfill**
-
-   * If you're already using `extensionApi: "chrome"`, then you're not using the polyfill and there is nothing to change!
-   * Otherwise there is only one change: `browser.runtime.onMessage` no longer supports using promises to return a response:
+   - If you're already using `extensionApi: "chrome"`, then you're not using the polyfill and there is nothing to change!
+   - Otherwise there is only one change: `browser.runtime.onMessage` no longer supports using promises to return a response:
 
      ts
 
@@ -81,16 +80,17 @@ To upgrade, you have two options:
        return true;
      });
      ```
-2. **Continue using the polyfill** - If you want to keep using the polyfill, you can! One less thing to worry about during this upgrade.
 
-   * Install `webextension-polyfill` and WXT's [new polyfill module](https://www.npmjs.com/package/@wxt-dev/webextension-polyfill):
+2. **Continue using the polyfill** - If you want to keep using the polyfill, you can! One less thing to worry about during this upgrade.
+   - Install `webextension-polyfill` and WXT's [new polyfill module](https://www.npmjs.com/package/@wxt-dev/webextension-polyfill):
 
      sh
 
      ```
      pnpm i webextension-polyfill @wxt-dev/webextension-polyfill
      ```
-   * Add the WXT module to your config:
+
+   - Add the WXT module to your config:
 
      wxt.config.ts
 
@@ -148,8 +148,8 @@ Not all type names will be the same as what `@types/webextension-polyfill` provi
 
 The default location for the `public/` and `modules/` directories have changed to better align with standards set by other frameworks (Nuxt, Next, Astro, etc). Now, each path is relative to the project's **root directory**, not the src directory.
 
-* If you follow the default folder structure, you don't need to make any changes.
-* If you set a custom `srcDir`, you have two options:
+- If you follow the default folder structure, you don't need to make any changes.
+- If you set a custom `srcDir`, you have two options:
   1. Move the your `public/` and `modules/` directories to the project root:
 
      html
@@ -167,6 +167,7 @@ The default location for the `public/` and `modules/` directories have changed t
             📄 app.config.ts
          📄 wxt.config.ts
      ```
+
   2. Keep the folders in the same place and update your project config:
 
      wxt.config.ts
@@ -252,6 +253,7 @@ If you use `createShadowRootUi`:
      visibility: visible !important;
    }
    ```
+
 2. Double check that your UI looks the same as before.
 
 If you run into problems with the new behavior, you can disable it and continue using your current CSS:
@@ -269,9 +271,9 @@ const ui = await createShadowRootUi({
 
 The default value for the [`outDirTemplate`](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#outdirtemplate) config has changed. Now, different build modes are output to different directories:
 
-* `--mode production` → `.output/chrome-mv3`: Production builds are unchanged
-* `--mode development` → `.output/chrome-mv3-dev`: Dev mode now has a `-dev` suffix so it doesn't overwrite production builds
-* `--mode custom` → `.output/chrome-mv3-custom`: Other custom modes end with a `-[mode]` suffix
+- `--mode production` → `.output/chrome-mv3`: Production builds are unchanged
+- `--mode development` → `.output/chrome-mv3-dev`: Dev mode now has a `-dev` suffix so it doesn't overwrite production builds
+- `--mode custom` → `.output/chrome-mv3-custom`: Other custom modes end with a `-[mode]` suffix
 
 To use the old behavior, writing all output to the same directory, set the `outDirTemplate` option:
 
@@ -291,9 +293,9 @@ If you've previously loaded the extension into your browser manually for develop
 
 ### Deprecated APIs Removed [​](https://wxt.dev/guide/resources/upgrading.html#deprecated-apis-removed)
 
-* `entrypointLoader` option: WXT now uses `vite-node` for importing entrypoints during the build process.
+- `entrypointLoader` option: WXT now uses `vite-node` for importing entrypoints during the build process.
   > This was deprecated in v0.19.0, see the [v0.19 section](https://wxt.dev/guide/resources/upgrading.html#v0-18-5-rarr-v0-19-0) for migration steps.
-* `transformManifest` option: Use the `build:manifestGenerated` hook to transform the manifest instead:
+- `transformManifest` option: Use the `build:manifestGenerated` hook to transform the manifest instead:
 
   wxt.config.ts
 
@@ -330,6 +332,7 @@ To improve consistency with the `web-ext.config.ts` filename, the "runner" API a
      },
    });
    ```
+
 2. `defineRunnerConfig` has been renamed to `defineWebExtConfig`:
 
    web-ext.config.ts
@@ -340,6 +343,7 @@ To improve consistency with the `web-ext.config.ts` filename, the "runner" API a
    import { defineRunnerConfig } from 'wxt';
    import { defineWebExtConfig } from 'wxt';
    ```
+
 3. The `ExtensionRunnerConfig` type has been renamed to `WebExtConfig`
 
    ts
@@ -459,6 +463,7 @@ You have two options:
      modulesDir: 'wxt-modules', // defaults to "modules"
    });
    ```
+
 2. Rename your `modules` directory to something else.
 
 ## v0.17.0 → v0.18.0 [​](https://wxt.dev/guide/resources/upgrading.html#v0-17-0-rarr-v0-18-0)
@@ -556,14 +561,14 @@ export default defineConfig({
 
 Renamed undocumented constants for detecting the build config at runtime in [#380](https://github.com/wxt-dev/wxt/pull/380). Now documented here: <https://wxt.dev/guide/multiple-browsers.html#runtime>
 
-* `__BROWSER__` → `import.meta.env.BROWSER`
-* `__COMMAND__` → `import.meta.env.COMMAND`
-* `__MANIFEST_VERSION__` → `import.meta.env.MANIFEST_VERSION`
-* `__IS_CHROME__` → `import.meta.env.CHROME`
-* `__IS_FIREFOX__` → `import.meta.env.FIREFOX`
-* `__IS_SAFARI__` → `import.meta.env.SAFARI`
-* `__IS_EDGE__` → `import.meta.env.EDGE`
-* `__IS_OPERA__` → `import.meta.env.OPERA`
+- `__BROWSER__` → `import.meta.env.BROWSER`
+- `__COMMAND__` → `import.meta.env.COMMAND`
+- `__MANIFEST_VERSION__` → `import.meta.env.MANIFEST_VERSION`
+- `__IS_CHROME__` → `import.meta.env.CHROME`
+- `__IS_FIREFOX__` → `import.meta.env.FIREFOX`
+- `__IS_SAFARI__` → `import.meta.env.SAFARI`
+- `__IS_EDGE__` → `import.meta.env.EDGE`
+- `__IS_OPERA__` → `import.meta.env.OPERA`
 
 ## v0.13.0 → v0.14.0 [​](https://wxt.dev/guide/resources/upgrading.html#v0-13-0-rarr-v0-14-0)
 
@@ -571,11 +576,11 @@ Renamed undocumented constants for detecting the build config at runtime in [#38
 
 `createContentScriptUi` and `createContentScriptIframe`, and some of their options, have been renamed:
 
-* `createContentScriptUi({ ... })` → `createShadowRootUi({ ... })`
-* `createContentScriptIframe({ ... })` → `createIframeUi({ ... })`
-* `type: "inline" | "overlay" | "modal"` has been changed to `position: "inline" | "overlay" | "modal"`
-* `onRemove` is now called ***before*** the UI is removed from the DOM, previously it was called after the UI was removed
-* `mount` option has been renamed to `onMount`, to better match the related option, `onRemove`.
+- `createContentScriptUi({ ... })` → `createShadowRootUi({ ... })`
+- `createContentScriptIframe({ ... })` → `createIframeUi({ ... })`
+- `type: "inline" | "overlay" | "modal"` has been changed to `position: "inline" | "overlay" | "modal"`
+- `onRemove` is now called **_before_** the UI is removed from the DOM, previously it was called after the UI was removed
+- `mount` option has been renamed to `onMount`, to better match the related option, `onRemove`.
 
 ## v0.12.0 → v0.13.0 [​](https://wxt.dev/guide/resources/upgrading.html#v0-12-0-rarr-v0-13-0)
 
@@ -589,8 +594,8 @@ Renamed undocumented constants for detecting the build config at runtime in [#38
 
 `defineContentScript` and `defineBackground` are now exported from `wxt/sandbox` instead of `wxt/client`. ([#284](https://github.com/wxt-dev/wxt/pull/284))
 
-* If you use auto-imports, no changes are required.
-* If you have disabled auto-imports, you'll need to manually update your import statements:
+- If you use auto-imports, no changes are required.
+- If you have disabled auto-imports, you'll need to manually update your import statements:
 
   ts
 

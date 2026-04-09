@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxthooks"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtHooks.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtHooks
@@ -14,29 +12,29 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#properties)
-  + [build:before](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildbefore)
-  + [build:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#builddone)
-  + [build:manifestGenerated](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildmanifestgenerated)
-  + [build:publicAssets](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildpublicassets)
-  + [config:resolved](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#configresolved)
-  + [entrypoints:found](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsfound)
-  + [entrypoints:grouped](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsgrouped)
-  + [entrypoints:resolved](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsresolved)
-  + [prepare:publicPaths](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#preparepublicpaths)
-  + [prepare:types](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#preparetypes)
-  + [ready](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#ready)
-  + [server:closed](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#serverclosed)
-  + [server:created](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#servercreated)
-  + [server:started](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#serverstarted)
-  + [vite:build:extendConfig](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#vitebuildextendconfig)
-  + [vite:devServer:extendConfig](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#vitedevserverextendconfig)
-  + [zip:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipdone)
-  + [zip:extension:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipextensiondone)
-  + [zip:extension:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipextensionstart)
-  + [zip:sources:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipsourcesdone)
-  + [zip:sources:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipsourcesstart)
-  + [zip:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipstart)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#properties)
+  - [build:before](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildbefore)
+  - [build:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#builddone)
+  - [build:manifestGenerated](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildmanifestgenerated)
+  - [build:publicAssets](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#buildpublicassets)
+  - [config:resolved](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#configresolved)
+  - [entrypoints:found](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsfound)
+  - [entrypoints:grouped](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsgrouped)
+  - [entrypoints:resolved](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#entrypointsresolved)
+  - [prepare:publicPaths](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#preparepublicpaths)
+  - [prepare:types](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#preparetypes)
+  - [ready](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#ready)
+  - [server:closed](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#serverclosed)
+  - [server:created](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#servercreated)
+  - [server:started](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#serverstarted)
+  - [vite:build:extendConfig](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#vitebuildextendconfig)
+  - [vite:devServer:extendConfig](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#vitedevserverextendconfig)
+  - [zip:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipdone)
+  - [zip:extension:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipextensiondone)
+  - [zip:extension:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipextensionstart)
+  - [zip:sources:done](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipsourcesdone)
+  - [zip:sources:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipsourcesstart)
+  - [zip:start](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#zipstart)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxthooks.html#properties)
 

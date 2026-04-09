@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/inlineconfig"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/InlineConfig.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > InlineConfig
@@ -14,34 +12,34 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#properties)
-  + [alias](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#alias)
-  + [analysis](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#analysis)
-  + [browser](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#browser)
-  + [configFile](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#configfile)
-  + [debug](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#debug)
-  + [dev](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#dev)
-  + [entrypointsDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#entrypointsdir)
-  + [experimental](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#experimental)
-  + [filterEntrypoints](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#filterentrypoints)
-  + [hooks](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#hooks)
-  + [imports](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#imports)
-  + [logger](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#logger)
-  + [manifest](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#manifest)
-  + [manifestVersion](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#manifestversion)
-  + [mode](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#mode)
-  + [modules](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#modules)
-  + [modulesDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#modulesdir)
-  + [outDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#outdir)
-  + [outDirTemplate](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#outdirtemplate)
-  + [publicDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#publicdir)
-  + [root](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#root)
-  + [runner](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#runner)
-  + [srcDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#srcdir)
-  + [targetBrowsers](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#targetbrowsers)
-  + [vite](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#vite)
-  + [webExt](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#webext)
-  + [zip](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#zip)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#properties)
+  - [alias](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#alias)
+  - [analysis](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#analysis)
+  - [browser](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#browser)
+  - [configFile](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#configfile)
+  - [debug](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#debug)
+  - [dev](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#dev)
+  - [entrypointsDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#entrypointsdir)
+  - [experimental](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#experimental)
+  - [filterEntrypoints](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#filterentrypoints)
+  - [hooks](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#hooks)
+  - [imports](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#imports)
+  - [logger](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#logger)
+  - [manifest](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#manifest)
+  - [manifestVersion](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#manifestversion)
+  - [mode](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#mode)
+  - [modules](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#modules)
+  - [modulesDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#modulesdir)
+  - [outDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#outdir)
+  - [outDirTemplate](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#outdirtemplate)
+  - [publicDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#publicdir)
+  - [root](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#root)
+  - [runner](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#runner)
+  - [srcDir](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#srcdir)
+  - [targetBrowsers](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#targetbrowsers)
+  - [vite](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#vite)
+  - [webExt](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#webext)
+  - [zip](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#zip)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#properties)
 
@@ -125,9 +123,9 @@ Name of the output HTML file. Relative to the project's root directory.
 
 Changing the filename of the outputFile also effects the names of the artifacts generated when setting `keepArtifacts` to true:
 
-* "stats.html" => "stats-\*.json"
-* "stats/bundle.html" => "bundle-\*.json"
-* ".analysis/index.html" => "index-\*.json"
+- "stats.html" => "stats-\*.json"
+- "stats/bundle.html" => "bundle-\*.json"
+- ".analysis/index.html" => "index-\*.json"
 
 ###### Default [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#default-3)
 
@@ -489,11 +487,11 @@ ts
 
 Template string for customizing the output directory structure. Available variables:
 
-* `{{browser}}`: The target browser (e.g., 'chrome', 'firefox')
-* `{{manifestVersion}}`: The manifest version (e.g., 2 or 3)
-* `{{mode}}`: The build mode (e.g., 'development', 'production')
-* `{{modeSuffix}}`: A suffix based on the mode ('-dev' for development, '' for production)
-* `{{command}}`: The WXT command being run (e.g., 'build', 'serve')
+- `{{browser}}`: The target browser (e.g., 'chrome', 'firefox')
+- `{{manifestVersion}}`: The manifest version (e.g., 2 or 3)
+- `{{mode}}`: The build mode (e.g., 'development', 'production')
+- `{{modeSuffix}}`: A suffix based on the mode ('-dev' for development, '' for production)
+- `{{command}}`: The WXT command being run (e.g., 'build', 'serve')
 
 #### Example [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#example-1)
 
@@ -655,12 +653,12 @@ Configure the filename output when zipping files.
 
 Available template variables:
 
-* `{{name}}` - The project's name converted to kebab-case
-* `{{version}}` - The version\_name or version from the manifest
-* `{{packageVersion}}` - The version from the package.json
-* `{{browser}}` - The target browser from the `--browser` CLI flag
-* `{{mode}}` - The current mode
-* `{{manifestVersion}}` - Either "2" or "3"
+- `{{name}}` - The project's name converted to kebab-case
+- `{{version}}` - The version_name or version from the manifest
+- `{{packageVersion}}` - The version from the package.json
+- `{{browser}}` - The target browser from the `--browser` CLI flag
+- `{{mode}}` - The current mode
+- `{{manifestVersion}}` - Either "2" or "3"
 
 ###### Default [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#default-20)
 
@@ -696,7 +694,7 @@ Just list the name of all the packages you want to download and include in the s
 
 All packages listed here will be downloaded to in `.wxt/local_modules/` and an `overrides` or `resolutions` field (depending on your package manager) will be added to the `package.json`, pointing to the downloaded packages.
 
-> ***DO NOT include versions or version filters.*** Just the package name. If multiple versions of a package are present in the project, all versions will be downloaded and referenced in the package.json correctly.
+> **_DO NOT include versions or version filters._** Just the package name. If multiple versions of a package are present in the project, all versions will be downloaded and referenced in the package.json correctly.
 
 ###### Example [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#example-2)
 
@@ -740,7 +738,7 @@ ts
 
 [Minimatch](https://www.npmjs.com/package/minimatch) patterns of files to exclude when creating a ZIP of all your source code for Firefox. Patterns are relative to your `config.zip.sourcesRoot`.
 
-Hidden files, node\_modules, and tests are ignored by default.
+Hidden files, node_modules, and tests are ignored by default.
 
 ###### Example [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#example-4)
 
@@ -798,12 +796,12 @@ Configure the filename output when zipping files.
 
 Available template variables:
 
-* `{{name}}` - The project's name converted to kebab-case
-* `{{version}}` - The version\_name or version from the manifest
-* `{{packageVersion}}` - The version from the package.json
-* `{{browser}}` - The target browser from the `--browser` CLI flag
-* `{{mode}}` - The current mode
-* `{{manifestVersion}}` - Either "2" or "3"
+- `{{name}}` - The project's name converted to kebab-case
+- `{{version}}` - The version_name or version from the manifest
+- `{{packageVersion}}` - The version from the package.json
+- `{{browser}}` - The target browser from the `--browser` CLI flag
+- `{{mode}}` - The current mode
+- `{{manifestVersion}}` - Either "2" or "3"
 
 ###### Default [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#default-24)
 
@@ -819,9 +817,9 @@ ts
 
 When zipping the extension, also zip sources.
 
-* `undefined`: zip sources if the target browser is "firefox" or "opera"
-* `true`: always zip sources
-* `false`: never zip sources
+- `undefined`: zip sources if the target browser is "firefox" or "opera"
+- `true`: always zip sources
+- `false`: never zip sources
 
 ###### Default [​](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#default-25)
 

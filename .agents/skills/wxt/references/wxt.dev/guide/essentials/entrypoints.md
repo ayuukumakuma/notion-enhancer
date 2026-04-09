@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/entrypoints"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/entrypoints.md for this page in Markdown format
 
 # Entrypoints [​](https://wxt.dev/guide/essentials/entrypoints.html#entrypoints)
@@ -128,25 +126,25 @@ In web extensions, there are two types of entrypoints:
 
 Throughout the rest of WXT's documentation, listed entrypoints are referred to by name. For example:
 
-* Popup
-* Options
-* Background
-* Content Script
+- Popup
+- Options
+- Background
+- Content Script
 
 However, not all entrypoints in web extensions are listed in the manifest. Some are not listed in the manifest, but are still used by extensions. For example:
 
-* A welcome page shown in a new tab when the extension is installed
-* JS files injected by content scripts into the main world
+- A welcome page shown in a new tab when the extension is installed
+- JS files injected by content scripts into the main world
 
 For more details on how to add unlisted entrypoints, see:
 
-* [Unlisted Pages](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-pages)
-* [Unlisted Scripts](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-scripts)
-* [Unlisted CSS](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-css)
+- [Unlisted Pages](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-pages)
+- [Unlisted Scripts](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-scripts)
+- [Unlisted CSS](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-css)
 
 ## Defining Manifest Options [​](https://wxt.dev/guide/essentials/entrypoints.html#defining-manifest-options)
 
-Most listed entrypoints have options that need to be added to the `manifest.json`. However with WXT, instead of defining the options in a separate file, *you define these options inside the entrypoint file itself*.
+Most listed entrypoints have options that need to be added to the `manifest.json`. However with WXT, instead of defining the options in a separate file, _you define these options inside the entrypoint file itself_.
 
 For example, here's how to define `matches` for content scripts:
 
@@ -186,10 +184,10 @@ When building your extension, WXT will look at the options defined in your entry
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/manifest/background/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/background.[jt]s` |  | `/background.js` |
-| `entrypoints/background/index.[jt]s` |  | `/background.js` |
+| Filename                             |     | Output Path      |
+| ------------------------------------ | --- | ---------------- |
+| `entrypoints/background.[jt]s`       |     | `/background.js` |
+| `entrypoints/background/index.[jt]s` |     | `/background.js` |
 
 MinimalWith Manifest Options
 
@@ -243,10 +241,10 @@ Refer to the [Entrypoint Loaders](https://wxt.dev/guide/essentials/config/entryp
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/override/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/bookmarks.html` |  | `/bookmarks.html` |
-| `entrypoints/bookmarks/index.html` |  | `/bookmarks.html` |
+| Filename                           |     | Output Path       |
+| ---------------------------------- | --- | ----------------- |
+| `entrypoints/bookmarks.html`       |     | `/bookmarks.html` |
+| `entrypoints/bookmarks/index.html` |     | `/bookmarks.html` |
 
 html
 
@@ -273,12 +271,12 @@ When you define a Bookmarks entrypoint, WXT will automatically update the manife
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/content_scripts/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/content.[jt]sx?` |  | `/content-scripts/content.js` |
-| `entrypoints/content/index.[jt]sx?` |  | `/content-scripts/content.js` |
-| `entrypoints/{name}.content.[jt]sx?` |  | `/content-scripts/{name}.js` |
-| `entrypoints/{name}.content/index.[jt]sx?` |  | `/content-scripts/{name}.js` |
+| Filename                                   |     | Output Path                   |
+| ------------------------------------------ | --- | ----------------------------- |
+| `entrypoints/content.[jt]sx?`              |     | `/content-scripts/content.js` |
+| `entrypoints/content/index.[jt]sx?`        |     | `/content-scripts/content.js` |
+| `entrypoints/{name}.content.[jt]sx?`       |     | `/content-scripts/{name}.js`  |
+| `entrypoints/{name}.content/index.[jt]sx?` |     | `/content-scripts/{name}.js`  |
 
 ts
 
@@ -335,10 +333,10 @@ See [Content Script UI](https://wxt.dev/guide/essentials/content-scripts.html) f
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/devtools/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/devtools.html` |  | `/devtools.html` |
-| `entrypoints/devtools/index.html` |  | `/devtools.html` |
+| Filename                          |     | Output Path      |
+| --------------------------------- | --- | ---------------- |
+| `entrypoints/devtools.html`       |     | `/devtools.html` |
+| `entrypoints/devtools/index.html` |     | `/devtools.html` |
 
 html
 
@@ -364,10 +362,10 @@ Follow the [Devtools Example](https://github.com/wxt-dev/examples/tree/main/exam
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/override/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/history.html` |  | `/history.html` |
-| `entrypoints/history/index.html` |  | `/history.html` |
+| Filename                         |     | Output Path     |
+| -------------------------------- | --- | --------------- |
+| `entrypoints/history.html`       |     | `/history.html` |
+| `entrypoints/history/index.html` |     | `/history.html` |
 
 html
 
@@ -394,10 +392,10 @@ When you define a History entrypoint, WXT will automatically update the manifest
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/override/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/newtab.html` |  | `/newtab.html` |
-| `entrypoints/newtab/index.html` |  | `/newtab.html` |
+| Filename                        |     | Output Path    |
+| ------------------------------- | --- | -------------- |
+| `entrypoints/newtab.html`       |     | `/newtab.html` |
+| `entrypoints/newtab/index.html` |     | `/newtab.html` |
 
 html
 
@@ -424,10 +422,10 @@ When you define a Newtab entrypoint, WXT will automatically update the manifest 
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/mv3/options/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/options.html` |  | `/options.html` |
-| `entrypoints/options/index.html` |  | `/options.html` |
+| Filename                         |     | Output Path     |
+| -------------------------------- | --- | --------------- |
+| `entrypoints/options.html`       |     | `/options.html` |
+| `entrypoints/options/index.html` |     | `/options.html` |
 
 html
 
@@ -458,10 +456,10 @@ html
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/reference/action/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/popup.html` |  | `/popup.html` |
-| `entrypoints/popup/index.html` |  | `/popup.html` |
+| Filename                       |     | Output Path   |
+| ------------------------------ | --- | ------------- |
+| `entrypoints/popup.html`       |     | `/popup.html` |
+| `entrypoints/popup/index.html` |     | `/popup.html` |
 
 html
 
@@ -518,12 +516,12 @@ Chromium Only
 
 Firefox does not support sandboxed pages.
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/sandbox.html` |  | `/sandbox.html` |
-| `entrypoints/sandbox/index.html` |  | `/sandbox.html` |
-| `entrypoints/{name}.sandbox.html` |  | `/{name}.html` |
-| `entrypoints/{name}.sandbox/index.html` |  | `/{name}.html` |
+| Filename                                |     | Output Path     |
+| --------------------------------------- | --- | --------------- |
+| `entrypoints/sandbox.html`              |     | `/sandbox.html` |
+| `entrypoints/sandbox/index.html`        |     | `/sandbox.html` |
+| `entrypoints/{name}.sandbox.html`       |     | `/{name}.html`  |
+| `entrypoints/{name}.sandbox/index.html` |     | `/{name}.html`  |
 
 html
 
@@ -549,12 +547,12 @@ html
 
 [Chrome Docs](https://developer.chrome.com/docs/extensions/reference/sidePanel/) • [Firefox Docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/sidepanel.html` |  | `/sidepanel.html` |
-| `entrypoints/sidepanel/index.html` |  | `/sidepanel.html` |
-| `entrypoints/{name}.sidepanel.html` |  | `` /{name}.html` `` |
-| `entrypoints/{name}.sidepanel/index.html` |  | `` /{name}.html` `` |
+| Filename                                  |     | Output Path         |
+| ----------------------------------------- | --- | ------------------- |
+| `entrypoints/sidepanel.html`              |     | `/sidepanel.html`   |
+| `entrypoints/sidepanel/index.html`        |     | `/sidepanel.html`   |
+| `entrypoints/{name}.sidepanel.html`       |     | `` /{name}.html` `` |
+| `entrypoints/{name}.sidepanel/index.html` |     | `` /{name}.html` `` |
 
 html
 
@@ -592,14 +590,14 @@ In Chrome, side panels use the `side_panel` API, while Firefox uses the `sidebar
 
 ### Unlisted CSS [​](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-css)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/{name}.(css|scss|sass|less|styl|stylus)` |  | `/{name}.css` |
-| `entrypoints/{name}/index.(css|scss|sass|less|styl|stylus)` |  | `/{name}.css` |
-| `entrypoints/content.(css|scss|sass|less|styl|stylus)` |  | `/content-scripts/content.css` |
-| `entrypoints/content/index.(css|scss|sass|less|styl|stylus)` |  | `/content-scripts/content.css` |
-| `entrypoints/{name}.content.(css|scss|sass|less|styl|stylus)` |  | `/content-scripts/{name}.css` |
-| `entrypoints/{name}.content/index.(css|scss|sass|less|styl|stylus)` |  | `/content-scripts/{name}.css` |
+| Filename                               |      | Output Path |
+| -------------------------------------- | ---- | ----------- | ---- | ---- | -------- | --- | ------------------------------ |
+| `entrypoints/{name}.(css               | scss | sass        | less | styl | stylus)` |     | `/{name}.css`                  |
+| `entrypoints/{name}/index.(css         | scss | sass        | less | styl | stylus)` |     | `/{name}.css`                  |
+| `entrypoints/content.(css              | scss | sass        | less | styl | stylus)` |     | `/content-scripts/content.css` |
+| `entrypoints/content/index.(css        | scss | sass        | less | styl | stylus)` |     | `/content-scripts/content.css` |
+| `entrypoints/{name}.content.(css       | scss | sass        | less | styl | stylus)` |     | `/content-scripts/{name}.css`  |
+| `entrypoints/{name}.content/index.(css | scss | sass        | less | styl | stylus)` |     | `/content-scripts/{name}.css`  |
 
 css
 
@@ -615,10 +613,10 @@ CSS entrypoints are always unlisted. To add CSS to a content script, see the [Co
 
 ### Unlisted Pages [​](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-pages)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/{name}.html` |  | `/{name}.html` |
-| `entrypoints/{name}/index.html` |  | `/{name}.html` |
+| Filename                        |     | Output Path    |
+| ------------------------------- | --- | -------------- |
+| `entrypoints/{name}.html`       |     | `/{name}.html` |
+| `entrypoints/{name}/index.html` |     | `/{name}.html` |
 
 html
 
@@ -653,10 +651,10 @@ window.open(url); // Open the page in a new tab
 
 ### Unlisted Scripts [​](https://wxt.dev/guide/essentials/entrypoints.html#unlisted-scripts)
 
-| Filename |  | Output Path |
-| --- | --- | --- |
-| `entrypoints/{name}.[jt]sx?` |  | `/{name}.js` |
-| `entrypoints/{name}/index.[jt]sx?` |  | `/{name}.js` |
+| Filename                           |     | Output Path  |
+| ---------------------------------- | --- | ------------ |
+| `entrypoints/{name}.[jt]sx?`       |     | `/{name}.js` |
+| `entrypoints/{name}/index.[jt]sx?` |     | `/{name}.js` |
 
 MinimalWith Options
 

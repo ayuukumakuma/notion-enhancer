@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstora
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/storage/interfaces/WxtStorageItem.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/storage](https://wxt.dev/api/reference/wxt/utils/storage/index.html) > WxtStorageItem
@@ -14,20 +12,20 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#contents)
 
-* [Type parameters](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#properties)
-  + [defaultValue](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#defaultvalue)
-  + [fallback](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#fallback)
-  + [key](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#key)
-* [Methods](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#methods)
-  + [getMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#getmeta)
-  + [getValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#getvalue)
-  + [migrate()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#migrate)
-  + [removeMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#removemeta)
-  + [removeValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#removevalue)
-  + [setMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#setmeta)
-  + [setValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#setvalue)
-  + [watch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#watch)
+- [Type parameters](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#properties)
+  - [defaultValue](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#defaultvalue)
+  - [fallback](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#fallback)
+  - [key](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#key)
+- [Methods](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#methods)
+  - [getMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#getmeta)
+  - [getValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#getvalue)
+  - [migrate()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#migrate)
+  - [removeMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#removemeta)
+  - [removeValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#removevalue)
+  - [setMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#setmeta)
+  - [setValue()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#setvalue)
+  - [watch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#watch)
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitem.html#type-parameters)
 

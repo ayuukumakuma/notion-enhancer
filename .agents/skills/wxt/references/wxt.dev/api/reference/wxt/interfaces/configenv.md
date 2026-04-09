@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/configenv"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/ConfigEnv.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > ConfigEnv
@@ -14,11 +12,11 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#properties)
-  + [browser](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#browser)
-  + [command](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#command)
-  + [manifestVersion](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#manifestversion)
-  + [mode](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#mode)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#properties)
+  - [browser](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#browser)
+  - [command](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#command)
+  - [manifestVersion](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#manifestversion)
+  - [mode](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#mode)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/configenv.html#properties)
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/typ
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/types/type-aliases/ContentScriptUiOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/types](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/index.html) > ContentScriptUiOptions
@@ -30,8 +28,8 @@ Note that this callback is called only when `ui.remove` is called - that means i
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/type-aliases/contentscriptuioptions.html#type-parameters)
 
-| Parameter |
-| --- |
+| Parameter  |
+| ---------- |
 | `TMounted` |
 
 ## Source [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/type-aliases/contentscriptuioptions.html#source)

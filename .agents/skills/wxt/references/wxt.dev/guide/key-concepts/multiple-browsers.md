@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/key-concepts/multiple-browsers"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/target-different-browsers.md for this page in Markdown format
 
 # Targeting Different Browsers [​](https://wxt.dev/guide/key-concepts/multiple-browsers.html#targeting-different-browsers)
@@ -65,7 +63,7 @@ Every entrypoint can be included or excluded when targeting specific browsers vi
 
 Here are some examples:
 
-* Content script only built when targeting `firefox`:
+- Content script only built when targeting `firefox`:
 
   ts
 
@@ -78,7 +76,8 @@ Here are some examples:
     },
   });
   ```
-* HTML file only built for all targets other than `chrome`:
+
+- HTML file only built for all targets other than `chrome`:
 
   html
 

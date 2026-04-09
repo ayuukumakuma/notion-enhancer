@@ -4,18 +4,16 @@ source_url: "https://wxt.dev/guide/essentials/config/manifest"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/manifest.md for this page in Markdown format
 
 # Manifest [​](https://wxt.dev/guide/essentials/config/manifest.html#manifest)
 
 In WXT, there is no `manifest.json` file in your source code. Instead, WXT generates the manifest from multiple sources:
 
-* Global options [defined in your `wxt.config.ts` file](https://wxt.dev/guide/essentials/config/manifest.html#global-options)
-* Entrypoint-specific options [defined in your entrypoints](https://wxt.dev/guide/essentials/entrypoints.html#defining-manifest-options)
-* [WXT Modules](https://wxt.dev/guide/essentials/wxt-modules.html) added to your project can modify your manifest
-* [Hooks](https://wxt.dev/guide/essentials/config/hooks.html) defined in your project can modify your manifest
+- Global options [defined in your `wxt.config.ts` file](https://wxt.dev/guide/essentials/config/manifest.html#global-options)
+- Entrypoint-specific options [defined in your entrypoints](https://wxt.dev/guide/essentials/entrypoints.html#defining-manifest-options)
+- [WXT Modules](https://wxt.dev/guide/essentials/wxt-modules.html) added to your project can modify your manifest
+- [Hooks](https://wxt.dev/guide/essentials/config/hooks.html) defined in your project can modify your manifest
 
 Your extension's `manifest.json` will be output to `.output/{target}/manifest.json` when running `wxt build`.
 
@@ -120,8 +118,8 @@ If not provided via the `manifest` config, the manifest's `name` property defaul
 
 Your extension's `version` and `version_name` is based on the `version` from your `package.json`.
 
-* `version_name` is the exact string listed
-* `version` is the string cleaned up, with any invalid suffixes removed
+- `version_name` is the exact string listed
+- `version` is the string cleaned up, with any invalid suffixes removed
 
 Example:
 
@@ -203,8 +201,8 @@ Alternatively, you can use [`@wxt-dev/auto-icons`](https://www.npmjs.com/package
 
 Most of the time, you need to manually add permissions to your manifest. Only in a few specific situations are permissions added automatically:
 
-* During development: the `tabs` and `scripting` permissions will be added to enable hot reloading.
-* When a `sidepanel` entrypoint is present: The `sidepanel` permission is added.
+- During development: the `tabs` and `scripting` permissions will be added to enable hot reloading.
+- When a `sidepanel` entrypoint is present: The `sidepanel` permission is added.
 
 ts
 

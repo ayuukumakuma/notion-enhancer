@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/content-scripts"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/content-scripts.md for this page in Markdown format
 
 # Content Scripts [​](https://wxt.dev/guide/essentials/content-scripts.html#content-scripts)
@@ -118,17 +116,17 @@ To create a standalone content script that only includes a CSS file:
 
 WXT provides 3 built-in utilities for adding UIs to a page from a content script:
 
-* [Integrated](https://wxt.dev/guide/essentials/content-scripts.html#integrated) - `createIntegratedUi`
-* [Shadow Root](https://wxt.dev/guide/essentials/content-scripts.html#shadow-root) -`createShadowRootUi`
-* [IFrame](https://wxt.dev/guide/essentials/content-scripts.html#iframe) - `createIframeUi`
+- [Integrated](https://wxt.dev/guide/essentials/content-scripts.html#integrated) - `createIntegratedUi`
+- [Shadow Root](https://wxt.dev/guide/essentials/content-scripts.html#shadow-root) -`createShadowRootUi`
+- [IFrame](https://wxt.dev/guide/essentials/content-scripts.html#iframe) - `createIframeUi`
 
 Each has their own set of advantages and disadvantages.
 
-| Method | Isolated Styles | Isolated Events | HMR | Use page's context |
-| --- | --- | --- | --- | --- |
-| Integrated | ❌ | ❌ | ❌ | ✅ |
-| Shadow Root | ✅ | ✅ (off by default) | ❌ | ✅ |
-| IFrame | ✅ | ✅ | ✅ | ❌ |
+| Method      | Isolated Styles | Isolated Events     | HMR | Use page's context |
+| ----------- | --------------- | ------------------- | --- | ------------------ |
+| Integrated  | ❌              | ❌                  | ❌  | ✅                 |
+| Shadow Root | ✅              | ✅ (off by default) | ❌  | ✅                 |
+| IFrame      | ✅              | ✅                  | ✅  | ❌                 |
 
 ### Integrated [​](https://wxt.dev/guide/essentials/content-scripts.html#integrated)
 
@@ -484,12 +482,12 @@ See the [API Reference](https://wxt.dev/api/reference/wxt/utils/content-script-u
 
 Full examples:
 
-* [react-content-script-ui](https://github.com/wxt-dev/examples/tree/main/examples/react-content-script-ui)
-* [tailwindcss](https://github.com/wxt-dev/examples/tree/main/examples/tailwindcss)
+- [react-content-script-ui](https://github.com/wxt-dev/examples/tree/main/examples/react-content-script-ui)
+- [tailwindcss](https://github.com/wxt-dev/examples/tree/main/examples/tailwindcss)
 
 ### IFrame [​](https://wxt.dev/guide/essentials/content-scripts.html#iframe)
 
-If you don't need to run your UI in the same frame as the content script, you can use an IFrame to host your UI instead. Since an IFrame just hosts an HTML page, ***HMR is supported***.
+If you don't need to run your UI in the same frame as the content script, you can use an IFrame to host your UI instead. Since an IFrame just hosts an HTML page, **_HMR is supported_**.
 
 WXT provides a helper function, [`createIframeUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/functions/createiframeui.html), which simplifies setting up the IFrame.
 
@@ -511,6 +509,7 @@ WXT provides a helper function, [`createIframeUi`](https://wxt.dev/api/reference
      </body>
    </html>
    ```
+
 2. Add the page to the manifest's `web_accessible_resources`:
 
    wxt.config.ts
@@ -529,6 +528,7 @@ WXT provides a helper function, [`createIframeUi`](https://wxt.dev/api/reference
      },
    });
    ```
+
 3. Create and mount the IFrame:
 
    ts
@@ -573,15 +573,15 @@ export default defineContentScript({
 
 However, this approach has several notable drawbacks:
 
-* Doesn't support MV2
-* `world: "MAIN"` is only supported by Chromium browsers
-* Main world content scripts don't have access to the extension API
+- Doesn't support MV2
+- `world: "MAIN"` is only supported by Chromium browsers
+- Main world content scripts don't have access to the extension API
 
 Instead, WXT recommends injecting a script into the main world manually using it's `injectScript` function. This will address the drawbacks mentioned before.
 
-* `injectScript` supports both MV2 and MV3
-* `injectScript` supports all browsers
-* Having a "parent" content script means you can send messages back and forth, making it possible to access the extension API
+- `injectScript` supports both MV2 and MV3
+- `injectScript` supports all browsers
+- Having a "parent" content script means you can send messages back and forth, making it possible to access the extension API
 
 To use `injectScript`, we need two entrypoints, one content script and one unlisted script:
 
@@ -759,7 +759,7 @@ See the [API Reference](https://wxt.dev/api/reference/wxt/utils/content-script-u
 
 ## Dealing with SPAs [​](https://wxt.dev/guide/essentials/content-scripts.html#dealing-with-spas)
 
-It is difficult to write content scripts for SPAs (single page applications) and websites using HTML5 history mode for navigation because content scripts are only ran on full page reloads. SPAs and websites that take advantage of HTML5 history mode ***do not perform a full reload when changing paths***, and thus your content script isn't going to be ran when you expect it to be.
+It is difficult to write content scripts for SPAs (single page applications) and websites using HTML5 history mode for navigation because content scripts are only ran on full page reloads. SPAs and websites that take advantage of HTML5 history mode **_do not perform a full reload when changing paths_**, and thus your content script isn't going to be ran when you expect it to be.
 
 Let's look at an example. Say you want to add a UI to YouTube when watching a video:
 

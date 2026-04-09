@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/storage"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /storage.md for this page in Markdown format
 
 # WXT Storage [​](https://wxt.dev/storage.html#wxt-storage)
@@ -355,6 +353,7 @@ With `storage.defineItem`, there are multiple ways of defining default values:
      fallback: true,
    });
    ```
+
 2. **`init`** - Initialize and save a value in storage if it is not already saved.
 
    This is great for values that need to be initialized or set once:
@@ -376,11 +375,11 @@ With `storage.defineItem`, there are multiple ways of defining default values:
 
 When getting or setting multiple values in storage, you can perform bulk operations to improve performance by reducing the number of individual storage calls. The `storage` API provides several methods for performing bulk operations:
 
-* **`getItems`** - Get multiple values at once.
-* **`getMetas`** - Get metadata for multiple items at once.
-* **`setItems`** - Set multiple values at once.
-* **`setMetas`** - Set metadata for multiple items at once.
-* **`removeItems`** - Remove multiple values (and optionally metadata) at once.
+- **`getItems`** - Get multiple values at once.
+- **`getMetas`** - Get metadata for multiple items at once.
+- **`setItems`** - Set multiple values at once.
+- **`setMetas`** - Set metadata for multiple items at once.
+- **`removeItems`** - Remove multiple values (and optionally metadata) at once.
 
 All these APIs support both string keys and defined storage items:
 

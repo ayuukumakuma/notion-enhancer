@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/cli/wxt-submit"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/cli/wxt-submit.md for this page in Markdown format
 
 # `wxt submit` [​](https://wxt.dev/api/cli/wxt-submit.html#wxt-submit)

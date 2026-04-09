@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/key-concepts/auto-imports"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/auto-imports.md for this page in Markdown format
 
 # Auto-imports [​](https://wxt.dev/guide/key-concepts/auto-imports.html#auto-imports)
@@ -25,10 +23,10 @@ export default defineConfig({
 
 By default, WXT automatically sets up auto-imports for all of it's own APIs and some of your project directories:
 
-* `<srcDir>/components/*`
-* `<srcDir>/composables/*`
-* `<srcDir>/hooks/*`
-* `<srcDir>/utils/*`
+- `<srcDir>/components/*`
+- `<srcDir>/composables/*`
+- `<srcDir>/hooks/*`
+- `<srcDir>/utils/*`
 
 All named and default exports from files in these directories are available everywhere else in your project without having to import them.
 

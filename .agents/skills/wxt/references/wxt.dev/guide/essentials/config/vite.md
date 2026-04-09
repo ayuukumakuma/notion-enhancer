@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/vite"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/vite.md for this page in Markdown format
 
 # Vite [​](https://wxt.dev/guide/essentials/config/vite.html#vite)

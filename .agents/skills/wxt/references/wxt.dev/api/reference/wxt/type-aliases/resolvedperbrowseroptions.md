@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/type-aliases/resolvedperbrowserop
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/type-aliases/ResolvedPerBrowserOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > ResolvedPerBrowserOptions
@@ -20,9 +18,9 @@ A optional second list of keys can be passed if a field isn't compatible with `P
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/type-aliases/resolvedperbrowseroptions.html#type-parameters)
 
-| Parameter | Default |
-| --- | --- |
-| `T` | - |
+| Parameter                    | Default |
+| ---------------------------- | ------- |
+| `T`                          | -       |
 | `TOmitted` extends keyof `T` | `never` |
 
 ## Source [​](https://wxt.dev/api/reference/wxt/type-aliases/resolvedperbrowseroptions.html#source)

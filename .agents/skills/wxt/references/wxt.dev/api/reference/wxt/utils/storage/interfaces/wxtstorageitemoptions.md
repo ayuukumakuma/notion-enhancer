@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstora
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/storage/interfaces/WxtStorageItemOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/storage](https://wxt.dev/api/reference/wxt/utils/storage/index.html) > WxtStorageItemOptions
@@ -14,15 +12,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#contents)
 
-* [Type parameters](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#properties)
-  + [debug](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#debug)
-  + [defaultValue](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#defaultvalue)
-  + [fallback](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#fallback)
-  + [init](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#init)
-  + [migrations](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#migrations)
-  + [onMigrationComplete](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#onmigrationcomplete)
-  + [version](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#version)
+- [Type parameters](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#properties)
+  - [debug](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#debug)
+  - [defaultValue](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#defaultvalue)
+  - [fallback](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#fallback)
+  - [init](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#init)
+  - [migrations](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#migrations)
+  - [onMigrationComplete](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#onmigrationcomplete)
+  - [version](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#version)
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorageitemoptions.html#type-parameters)
 

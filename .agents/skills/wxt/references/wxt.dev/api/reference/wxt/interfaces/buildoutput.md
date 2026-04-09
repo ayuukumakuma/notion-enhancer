@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/buildoutput"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BuildOutput.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BuildOutput
@@ -14,10 +12,10 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#properties)
-  + [manifest](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#manifest)
-  + [publicAssets](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#publicassets)
-  + [steps](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#steps)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#properties)
+  - [manifest](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#manifest)
+  - [publicAssets](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#publicassets)
+  - [steps](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#steps)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/buildoutput.html#properties)
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/GeneratedPublicFile.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > GeneratedPublicFile
@@ -14,14 +12,14 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#properties)
-  + [contents](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#contents)
-  + [relativeDest](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#relativedest)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#properties)
+  - [contents](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#contents)
+  - [relativeDest](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#relativedest)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#extends)
 
-* [`ResolvedBasePublicFile`](https://wxt.dev/api/reference/wxt/interfaces/resolvedbasepublicfile.html)
+- [`ResolvedBasePublicFile`](https://wxt.dev/api/reference/wxt/interfaces/resolvedbasepublicfile.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/generatedpublicfile.html#properties)
 

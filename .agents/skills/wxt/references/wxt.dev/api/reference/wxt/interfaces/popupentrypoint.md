@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/PopupEntrypoint.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > PopupEntrypoint
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#properties)
-  + [inputPath](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#inputpath)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#name)
-  + [options](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#options)
-  + [outputDir](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#outputdir)
-  + [skipped](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#skipped)
-  + [type](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#type)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#properties)
+  - [inputPath](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#inputpath)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#name)
+  - [options](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#options)
+  - [outputDir](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#outputdir)
+  - [skipped](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#skipped)
+  - [type](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#type)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#extends)
 
-* [`BaseEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html)
+- [`BaseEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/popupentrypoint.html#properties)
 
@@ -53,14 +51,14 @@ The entrypoint's name. This is the filename or dirname without the type suffix.
 
 Examples:
 
-* `popup.html` → `popup`
-* `options/index.html` → `options`
-* `named.sandbox.html` → `named`
-* `named.sandbox/index.html` → `named`
-* `sandbox.html` → `sandbox`
-* `sandbox/index.html` → `sandbox`
-* `overlay.content.ts` → `overlay`
-* `overlay.content/index.ts` → `overlay`
+- `popup.html` → `popup`
+- `options/index.html` → `options`
+- `named.sandbox.html` → `named`
+- `named.sandbox/index.html` → `named`
+- `sandbox.html` → `sandbox`
+- `sandbox/index.html` → `sandbox`
+- `overlay.content.ts` → `overlay`
+- `overlay.content/index.ts` → `overlay`
 
 The name is used when generating an output file: `<entrypoint.outputDir>/<entrypoint.name>.<ext>`
 

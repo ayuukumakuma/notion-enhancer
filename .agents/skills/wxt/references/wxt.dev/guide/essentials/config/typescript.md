@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/typescript"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/typescript.md for this page in Markdown format
 
 # TypeScript Configuration [​](https://wxt.dev/guide/essentials/config/typescript.html#typescript-configuration)
@@ -51,12 +49,12 @@ jsonc
 
 WXT provides a default set of path aliases.
 
-| Alias | To | Example |
-| --- | --- | --- |
-| `~~` | `<rootDir>/*` | `import "~~/scripts"` |
-| `@@` | `<rootDir>/*` | `import "@@/scripts"` |
-| `~` | `<srcDir>/*` | `import { toLowerCase } from "~/utils/strings"` |
-| `@` | `<srcDir>/*` | `import { toLowerCase } from "@/utils/strings"` |
+| Alias | To            | Example                                         |
+| ----- | ------------- | ----------------------------------------------- |
+| `~~`  | `<rootDir>/*` | `import "~~/scripts"`                           |
+| `@@`  | `<rootDir>/*` | `import "@@/scripts"`                           |
+| `~`   | `<srcDir>/*`  | `import { toLowerCase } from "~/utils/strings"` |
+| `@`   | `<srcDir>/*`  | `import { toLowerCase } from "@/utils/strings"` |
 
 To add your own, DO NOT add them to your `tsconfig.json`! Instead, use the [`alias` option](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#alias) in `wxt.config.ts`.
 

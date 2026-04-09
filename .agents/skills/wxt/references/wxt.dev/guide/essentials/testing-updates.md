@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/testing-updates"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/testing-updates.md for this page in Markdown format
 
 # Testing Updates [​](https://wxt.dev/guide/essentials/testing-updates.html#testing-updates)
@@ -16,9 +14,9 @@ When `permissions`/`host_permissions` change during an update, depending on what
 
 You can test if your permission changes will result in a disabled extension:
 
-* Chromium: Use [Google's Extension Update Testing tool](https://github.com/GoogleChromeLabs/extension-update-testing-tool)
-* Firefox: See their [Test Permission Requests](https://extensionworkshop.com/documentation/develop/test-permission-requests/) page
-* Safari: Everyone breaks something in production eventually... 🫡 Good luck soldier
+- Chromium: Use [Google's Extension Update Testing tool](https://github.com/GoogleChromeLabs/extension-update-testing-tool)
+- Firefox: See their [Test Permission Requests](https://extensionworkshop.com/documentation/develop/test-permission-requests/) page
+- Safari: Everyone breaks something in production eventually... 🫡 Good luck soldier
 
 ## Update Event [​](https://wxt.dev/guide/essentials/testing-updates.html#update-event)
 

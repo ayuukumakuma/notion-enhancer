@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtDevServer.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtDevServer
@@ -14,28 +12,28 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#properties)
-  + [currentOutput](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#currentoutput)
-  + [host](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#host)
-  + [origin](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#origin)
-  + [port](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#port)
-  + [reloadContentScript](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadcontentscript)
-  + [reloadExtension](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadextension)
-  + [reloadPage](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadpage)
-  + [restartBrowser](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#restartbrowser)
-  + [watcher](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#watcher)
-  + [ws](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#ws)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#methods)
-  + [on()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#on-1)
-  + [restart()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#restart)
-  + [start()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#start)
-  + [stop()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#stop)
-  + [transformHtml()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#transformhtml)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#properties)
+  - [currentOutput](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#currentoutput)
+  - [host](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#host)
+  - [origin](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#origin)
+  - [port](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#port)
+  - [reloadContentScript](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadcontentscript)
+  - [reloadExtension](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadextension)
+  - [reloadPage](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#reloadpage)
+  - [restartBrowser](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#restartbrowser)
+  - [watcher](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#watcher)
+  - [ws](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#ws)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#methods)
+  - [on()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#on-1)
+  - [restart()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#restart)
+  - [start()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#start)
+  - [stop()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#stop)
+  - [transformHtml()](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#transformhtml)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#extends)
 
-* `Omit`<[`WxtBuilderServer`](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html), `"listen"` | `"close"`>.[`ServerInfo`](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html)
+- `Omit`<[`WxtBuilderServer`](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html), `"listen"` | `"close"`>.[`ServerInfo`](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html#properties)
 

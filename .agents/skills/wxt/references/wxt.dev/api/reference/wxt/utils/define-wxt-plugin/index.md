@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/define-wxt-plugin/index"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/define-wxt-plugin.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/define-wxt-plugin
@@ -16,7 +14,7 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/define-wxt-plugin/index.html#functions)
 
-* [defineWxtPlugin](https://wxt.dev/api/reference/wxt/utils/define-wxt-plugin/functions/definewxtplugin.html)
+- [defineWxtPlugin](https://wxt.dev/api/reference/wxt/utils/define-wxt-plugin/functions/definewxtplugin.html)
 
 ---
 

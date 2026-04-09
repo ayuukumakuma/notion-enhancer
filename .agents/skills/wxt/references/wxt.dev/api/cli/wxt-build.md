@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/cli/wxt-build"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/cli/wxt-build.md for this page in Markdown format
 
 # `wxt build` [​](https://wxt.dev/api/cli/wxt-build.html#wxt-build)

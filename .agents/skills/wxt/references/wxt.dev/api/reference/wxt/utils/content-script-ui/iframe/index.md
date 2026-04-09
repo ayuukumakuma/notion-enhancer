@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/in
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/iframe.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/content-script-ui/iframe
@@ -16,15 +14,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Interfaces [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/index.html#interfaces)
 
-* [IframeContentScriptUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html)
+- [IframeContentScriptUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/interfaces/iframecontentscriptui.html)
 
 ### Type Aliases [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/index.html#type-aliases)
 
-* [IframeContentScriptUiOptions](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/type-aliases/iframecontentscriptuioptions.html)
+- [IframeContentScriptUiOptions](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/type-aliases/iframecontentscriptuioptions.html)
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/index.html#functions)
 
-* [createIframeUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/functions/createiframeui.html)
+- [createIframeUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/iframe/functions/createiframeui.html)
 
 ---
 

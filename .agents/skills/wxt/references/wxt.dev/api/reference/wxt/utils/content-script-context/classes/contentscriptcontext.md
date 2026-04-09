@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-context/clas
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-context/classes/ContentScriptContext.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-context](https://wxt.dev/api/reference/wxt/utils/content-script-context/index.html) > ContentScriptContext
@@ -43,37 +41,37 @@ test('storage listener should be removed when context is invalidated', () => {
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#contents)
 
-* [Implements](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#implements)
-* [Constructors](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#constructors)
-  + [new ContentScriptContext(contentScriptName, options)](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#new-contentscriptcontextcontentscriptname-options)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#properties)
-  + [abortController](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#abortcontroller)
-  + [contentScriptName](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#contentscriptname)
-  + [id](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#id)
-  + [locationWatcher](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#locationwatcher)
-  + [options](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#options)
-  + [SCRIPT\_STARTED\_MESSAGE\_TYPE](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#script-started-message-type)
-* [Accessors](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#accessors)
-  + [isInvalid](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#isinvalid)
-  + [isValid](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#isvalid)
-  + [signal](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#signal)
-* [Methods](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#methods)
-  + [abort()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#abort)
-  + [addEventListener()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#addeventlistener)
-  + [block()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#block)
-  + [listenForNewerScripts()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#listenfornewerscripts)
-  + [notifyInvalidated()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#notifyinvalidated)
-  + [onInvalidated()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#oninvalidated)
-  + [requestAnimationFrame()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#requestanimationframe)
-  + [requestIdleCallback()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#requestidlecallback)
-  + [setInterval()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#setinterval)
-  + [setTimeout()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#settimeout)
-  + [stopOldScripts()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#stopoldscripts)
-  + [verifyScriptStartedEvent()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#verifyscriptstartedevent)
+- [Implements](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#implements)
+- [Constructors](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#constructors)
+  - [new ContentScriptContext(contentScriptName, options)](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#new-contentscriptcontextcontentscriptname-options)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#properties)
+  - [abortController](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#abortcontroller)
+  - [contentScriptName](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#contentscriptname)
+  - [id](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#id)
+  - [locationWatcher](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#locationwatcher)
+  - [options](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#options)
+  - [SCRIPT_STARTED_MESSAGE_TYPE](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#script-started-message-type)
+- [Accessors](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#accessors)
+  - [isInvalid](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#isinvalid)
+  - [isValid](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#isvalid)
+  - [signal](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#signal)
+- [Methods](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#methods)
+  - [abort()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#abort)
+  - [addEventListener()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#addeventlistener)
+  - [block()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#block)
+  - [listenForNewerScripts()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#listenfornewerscripts)
+  - [notifyInvalidated()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#notifyinvalidated)
+  - [onInvalidated()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#oninvalidated)
+  - [requestAnimationFrame()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#requestanimationframe)
+  - [requestIdleCallback()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#requestidlecallback)
+  - [setInterval()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#setinterval)
+  - [setTimeout()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#settimeout)
+  - [stopOldScripts()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#stopoldscripts)
+  - [verifyScriptStartedEvent()](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#verifyscriptstartedevent)
 
 ## Implements [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#implements)
 
-* `AbortController`
+- `AbortController`
 
 ## Constructors [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#constructors)
 
@@ -149,9 +147,9 @@ Ensure the location watcher is actively looking for URL changes. If it's already
 
 ---
 
-### SCRIPT\_STARTED\_MESSAGE\_TYPE [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#script-started-message-type)
+### SCRIPT_STARTED_MESSAGE_TYPE [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#script-started-message-type)
 
-> **`private`** **`static`** **SCRIPT\_STARTED\_MESSAGE\_TYPE**: `string`
+> **`private`** **`static`** **SCRIPT_STARTED_MESSAGE_TYPE**: `string`
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#source-6)
 
@@ -219,7 +217,7 @@ Listeners can be canceled by calling the normal `removeEventListener` function.
 
 Includes additional events useful for content scripts:
 
-* `"wxt:locationchange"` - Triggered when HTML5 history mode is used to change URL. Content scripts are not reloaded when navigating this way, so this can be used to reset the content script state on URL change, or run custom code.
+- `"wxt:locationchange"` - Triggered when HTML5 history mode is used to change URL. Content scripts are not reloaded when navigating this way, so this can be used to reset the content script state on URL change, or run custom code.
 
 ##### Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-context/classes/contentscriptcontext.html#type-parameters)
 

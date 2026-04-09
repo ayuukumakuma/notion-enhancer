@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentsc
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/IsolatedWorldContentScriptDefinition.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > IsolatedWorldContentScriptDefinition
@@ -14,28 +12,28 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#properties)
-  + [allFrames](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#allframes)
-  + [cssInjectionMode](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#cssinjectionmode)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#exclude)
-  + [excludeGlobs](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#excludeglobs)
-  + [excludeMatches](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#excludematches)
-  + [globalName](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#globalname)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#include)
-  + [includeGlobs](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#includeglobs)
-  + [matchAboutBlank](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matchaboutblank)
-  + [matchOriginAsFallback](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matchoriginasfallback)
-  + [matches](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matches)
-  + [registration](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#registration)
-  + [runAt](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#runat)
-  + [world](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#world)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#methods)
-  + [main()](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#main)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#properties)
+  - [allFrames](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#allframes)
+  - [cssInjectionMode](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#cssinjectionmode)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#exclude)
+  - [excludeGlobs](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#excludeglobs)
+  - [excludeMatches](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#excludematches)
+  - [globalName](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#globalname)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#include)
+  - [includeGlobs](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#includeglobs)
+  - [matchAboutBlank](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matchaboutblank)
+  - [matchOriginAsFallback](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matchoriginasfallback)
+  - [matches](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#matches)
+  - [registration](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#registration)
+  - [runAt](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#runat)
+  - [world](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#world)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#methods)
+  - [main()](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#main)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#extends)
 
-* [`IsolatedWorldContentScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptentrypointoptions.html)
+- [`IsolatedWorldContentScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#properties)
 
@@ -69,9 +67,9 @@ false
 
 Customize how imported/generated styles are injected with the content script. Regardless of the mode selected, CSS will always be built and included in the output directory.
 
-* `"manifest"` - Include the CSS in the manifest, under the content script's `css` array.
-* `"manual"` - Exclude the CSS from the manifest. You are responsible for manually loading it onto the page. Use `browser.runtime.getURL("content-scripts/<name>.css")` to get the file's URL
-* `"ui"` - Exclude the CSS from the manifest. CSS will be automatically added to your UI when calling `createShadowRootUi`
+- `"manifest"` - Include the CSS in the manifest, under the content script's `css` array.
+- `"manual"` - Exclude the CSS from the manifest. You are responsible for manually loading it onto the page. Use `browser.runtime.getURL("content-scripts/<name>.css")` to get the file's URL
+- `"ui"` - Exclude the CSS from the manifest. CSS will be automatically added to your UI when calling `createShadowRootUi`
 
 #### Default [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#default-1)
 
@@ -173,10 +171,10 @@ This option is relevant for scripts inserted into the page context where the def
 
 Available options:
 
-* `true`: automatically generate a name for the IIFE based on the entrypoint name
-* `false`: Output the IIFE without a variable name, making it anonymous. This is the safest option to avoid conflicts with existing variables on the page. This will become the default in a future version of WXT.
-* `string`: Use the provided string as the global variable name.
-* `function`: A function that receives the entrypoint and returns a string to use as the variable name.
+- `true`: automatically generate a name for the IIFE based on the entrypoint name
+- `false`: Output the IIFE without a variable name, making it anonymous. This is the safest option to avoid conflicts with existing variables on the page. This will become the default in a future version of WXT.
+- `string`: Use the provided string as the global variable name.
+- `function`: A function that receives the entrypoint and returns a string to use as the variable name.
 
 #### Default [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#default-5)
 
@@ -312,8 +310,8 @@ false
 
 Specify how the content script is registered.
 
-* `"manifest"`: The content script will be added to the `content_scripts` entry in the manifest. This is the normal and most well known way of registering a content script.
-* `"runtime"`: The content script's `matches` is added to `host_permissions` and you are responsible for using the scripting API to register/execute the content script dynamically at runtime.
+- `"manifest"`: The content script will be added to the `content_scripts` entry in the manifest. This is the normal and most well known way of registering a content script.
+- `"runtime"`: The content script's `matches` is added to `host_permissions` and you are responsible for using the scripting API to register/execute the content script dynamically at runtime.
 
 #### Default [​](https://wxt.dev/api/reference/wxt/interfaces/isolatedworldcontentscriptdefinition.html#default-10)
 

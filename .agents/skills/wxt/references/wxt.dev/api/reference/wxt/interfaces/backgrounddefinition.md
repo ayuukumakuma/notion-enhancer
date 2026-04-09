@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BackgroundDefinition.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BackgroundDefinition
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#properties)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#include)
-  + [persistent](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#persistent)
-  + [type](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#type)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#methods)
-  + [main()](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#main)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#properties)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#include)
+  - [persistent](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#persistent)
+  - [type](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#type)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#methods)
+  - [main()](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#main)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#extends)
 
-* [`BackgroundEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html)
+- [`BackgroundEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/backgroundentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/backgrounddefinition.html#properties)
 

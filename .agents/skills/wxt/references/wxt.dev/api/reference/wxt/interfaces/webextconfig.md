@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/webextconfig"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WebExtConfig.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WebExtConfig
@@ -16,20 +14,20 @@ Options for how [`web-ext`](https://github.com/mozilla/web-ext) starts the brows
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#properties)
-  + [binaries](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#binaries)
-  + [chromiumArgs](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumargs)
-  + [chromiumPort](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumport)
-  + [chromiumPref](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumpref)
-  + [chromiumProfile](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumprofile)
-  + [disabled](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#disabled)
-  + [firefoxArgs](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxargs)
-  + [firefoxPref](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxpref)
-  + [firefoxProfile](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxprofile)
-  + [keepProfileChanges](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#keepprofilechanges)
-  + [openConsole](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#openconsole)
-  + [openDevtools](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#opendevtools)
-  + [startUrls](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#starturls)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#properties)
+  - [binaries](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#binaries)
+  - [chromiumArgs](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumargs)
+  - [chromiumPort](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumport)
+  - [chromiumPref](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumpref)
+  - [chromiumProfile](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#chromiumprofile)
+  - [disabled](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#disabled)
+  - [firefoxArgs](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxargs)
+  - [firefoxPref](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxpref)
+  - [firefoxProfile](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#firefoxprofile)
+  - [keepProfileChanges](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#keepprofilechanges)
+  - [openConsole](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#openconsole)
+  - [openDevtools](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#opendevtools)
+  - [startUrls](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#starturls)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#properties)
 
@@ -41,8 +39,8 @@ List of browser names and the binary that should be used to open the browser.
 
 #### See [​](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#see)
 
-* <https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#chromium-binary>
-* <https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#firefox>
+- <https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#chromium-binary>
+- <https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#firefox>
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/webextconfig.html#source)
 

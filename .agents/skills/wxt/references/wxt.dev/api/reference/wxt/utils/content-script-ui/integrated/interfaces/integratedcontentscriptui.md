@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrate
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/integrated/interfaces/IntegratedContentScriptUi.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/integrated](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/index.html) > IntegratedContentScriptUi
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#extends)
-* [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#properties)
-  + [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#automount)
-  + [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#mount)
-  + [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#mounted)
-  + [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#remove)
-  + [wrapper](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#wrapper)
+- [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#extends)
+- [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#properties)
+  - [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#automount)
+  - [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#mount)
+  - [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#mounted)
+  - [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#remove)
+  - [wrapper](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#wrapper)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#extends)
 
-* [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
+- [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html#type-parameters)
 

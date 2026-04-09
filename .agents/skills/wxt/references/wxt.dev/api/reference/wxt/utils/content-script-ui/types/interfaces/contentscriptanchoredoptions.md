@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/int
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/types/interfaces/ContentScriptAnchoredOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/types](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/index.html) > ContentScriptAnchoredOptions
@@ -14,9 +12,9 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#properties)
-  + [anchor](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#anchor)
-  + [append](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#append)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#properties)
+  - [anchor](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#anchor)
+  - [append](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#append)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#properties)
 
@@ -38,12 +36,12 @@ A CSS selector, XPath expression, element, or function that returns one of the t
 
 In combination with `anchor`, decide how to add the UI to the DOM.
 
-* `"last"` (default) - Add the UI as the last child of the `anchor` element
-* `"first"` - Add the UI as the first child of the `anchor` element
-* `"replace"` - Replace the `anchor` element with the UI.
-* `"before"` - Add the UI as the sibling before the `anchor` element
-* `"after"` - Add the UI as the sibling after the `anchor` element
-* `(anchor, ui) => void` - Customizable function that let's you add the UI to the DOM
+- `"last"` (default) - Add the UI as the last child of the `anchor` element
+- `"first"` - Add the UI as the first child of the `anchor` element
+- `"replace"` - Replace the `anchor` element with the UI.
+- `"before"` - Add the UI as the sibling before the `anchor` element
+- `"after"` - Add the UI as the sibling after the `anchor` element
+- `(anchor, ui) => void` - Customizable function that let's you add the UI to the DOM
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptanchoredoptions.html#source-1)
 

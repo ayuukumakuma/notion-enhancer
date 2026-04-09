@@ -4,18 +4,16 @@ source_url: "https://wxt.dev/guide/installation"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/installation.md for this page in Markdown format
 
 # Installation [​](https://wxt.dev/guide/installation.html#installation)
 
 Bootstrap a new project, start from scratch, or [migrate an existing project](https://wxt.dev/guide/resources/migrate.html).
 
-* [Bootstrap Project](https://wxt.dev/guide/installation.html#bootstrap-project)
-  + [Demo](https://wxt.dev/guide/installation.html#demo)
-* [From Scratch](https://wxt.dev/guide/installation.html#from-scratch)
-* [Next Steps](https://wxt.dev/guide/installation.html#next-steps)
+- [Bootstrap Project](https://wxt.dev/guide/installation.html#bootstrap-project)
+  - [Demo](https://wxt.dev/guide/installation.html#demo)
+- [From Scratch](https://wxt.dev/guide/installation.html#from-scratch)
+- [Next Steps](https://wxt.dev/guide/installation.html#next-steps)
 
 ## Bootstrap Project [​](https://wxt.dev/guide/installation.html#bootstrap-project)
 
@@ -97,6 +95,7 @@ Once you've run the `dev` command, continue to [Next Steps](https://wxt.dev/guid
    cd my-project
    yarn init
    ```
+
 2. Install WXT:
 
    PNPMBunNPMYarn
@@ -124,6 +123,7 @@ Once you've run the `dev` command, continue to [Next Steps](https://wxt.dev/guid
    ```
    yarn add --dev wxt
    ```
+
 3. Add an entrypoint, `my-project/entrypoints/background.ts`:
 
    ts
@@ -135,6 +135,7 @@ Once you've run the `dev` command, continue to [Next Steps](https://wxt.dev/guid
      console.log('Hello world!');
    });
    ```
+
 4. Add scripts to your `package.json`:
 
    package.json
@@ -154,6 +155,7 @@ Once you've run the `dev` command, continue to [Next Steps](https://wxt.dev/guid
      }
    }
    ```
+
 5. Run your extension in dev mode
 
    PNPMBunNPMYarn
@@ -186,7 +188,7 @@ Once you've run the `dev` command, continue to [Next Steps](https://wxt.dev/guid
 
 ## Next Steps [​](https://wxt.dev/guide/installation.html#next-steps)
 
-* Keep reading on about WXT's [Project Structure](https://wxt.dev/guide/essentials/project-structure.html) and other essential concepts to learn
-* Configure [automatic browser startup](https://wxt.dev/guide/essentials/config/browser-startup.html) during dev mode
-* Explore [WXT's example library](https://wxt.dev/examples.html) to see how to use specific APIs or perform common tasks
-* Checkout the [community page](https://wxt.dev/guide/resources/community.html) for a list of resources made by the community!
+- Keep reading on about WXT's [Project Structure](https://wxt.dev/guide/essentials/project-structure.html) and other essential concepts to learn
+- Configure [automatic browser startup](https://wxt.dev/guide/essentials/config/browser-startup.html) during dev mode
+- Explore [WXT's example library](https://wxt.dev/examples.html) to see how to use specific APIs or perform common tasks
+- Checkout the [community page](https://wxt.dev/guide/resources/community.html) for a list of resources made by the community!

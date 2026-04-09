@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptio
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/OptionsEntrypointOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > OptionsEntrypointOptions
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#properties)
-  + [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#browserstyle)
-  + [chromeStyle](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#chromestyle)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#include)
-  + [openInTab](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#openintab)
-  + [title](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#title)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#properties)
+  - [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#browserstyle)
+  - [chromeStyle](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#chromestyle)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#include)
+  - [openInTab](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#openintab)
+  - [title](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#title)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#extends)
 
-* [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
+- [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/optionsentrypointoptions.html#properties)
 

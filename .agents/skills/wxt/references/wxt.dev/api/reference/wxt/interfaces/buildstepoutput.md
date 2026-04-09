@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/BuildStepOutput.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > BuildStepOutput
@@ -14,9 +12,9 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#properties)
-  + [chunks](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#chunks)
-  + [entrypoints](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#entrypoints)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#properties)
+  - [chunks](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#chunks)
+  - [entrypoints](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#entrypoints)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/buildstepoutput.html#properties)
 

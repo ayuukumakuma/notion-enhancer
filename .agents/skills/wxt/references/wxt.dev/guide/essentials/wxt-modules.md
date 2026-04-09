@@ -4,20 +4,18 @@ source_url: "https://wxt.dev/guide/essentials/wxt-modules"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/wxt-modules.md for this page in Markdown format
 
 # WXT Modules [​](https://wxt.dev/guide/essentials/wxt-modules.html#wxt-modules)
 
 WXT provides a "module system" that let's you run code at different steps in the build process to modify it.
 
-* [Adding a Module](https://wxt.dev/guide/essentials/wxt-modules.html#adding-a-module)
-* [Module Options](https://wxt.dev/guide/essentials/wxt-modules.html#module-options)
-* [Execution Order](https://wxt.dev/guide/essentials/wxt-modules.html#execution-order)
-* [Writing Modules](https://wxt.dev/guide/essentials/wxt-modules.html#writing-modules)
-  + [Recipes](https://wxt.dev/guide/essentials/wxt-modules.html#recipes)
-  + [Example Modules](https://wxt.dev/guide/essentials/wxt-modules.html#example-modules)
+- [Adding a Module](https://wxt.dev/guide/essentials/wxt-modules.html#adding-a-module)
+- [Module Options](https://wxt.dev/guide/essentials/wxt-modules.html#module-options)
+- [Execution Order](https://wxt.dev/guide/essentials/wxt-modules.html#execution-order)
+- [Writing Modules](https://wxt.dev/guide/essentials/wxt-modules.html#writing-modules)
+  - [Recipes](https://wxt.dev/guide/essentials/wxt-modules.html#recipes)
+  - [Example Modules](https://wxt.dev/guide/essentials/wxt-modules.html#example-modules)
 
 ## Adding a Module [​](https://wxt.dev/guide/essentials/wxt-modules.html#adding-a-module)
 
@@ -36,6 +34,7 @@ There are two ways to add a module to your project:
    ```
 
    > Searching for ["wxt module"](https://www.npmjs.com/search?q=wxt%20module) on NPM is a good way to find published WXT modules.
+
 2. **Local**: add a file to your project's `modules/` directory:
 
    plaintext
@@ -81,10 +80,10 @@ export default defineWxtModule({
 
 Each module's setup function is executed after the `wxt.config.ts` file is loaded. The `wxt` object provides everything you need to write a module:
 
-* Use `wxt.hook(...)` to hook into the build's lifecycle and make changes
-* Use `wxt.config` to get the resolved config from the project's `wxt.config.ts` file
-* Use `wxt.logger` to log messages to the console
-* and more!
+- Use `wxt.hook(...)` to hook into the build's lifecycle and make changes
+- Use `wxt.config` to get the resolved config from the project's `wxt.config.ts` file
+- Use `wxt.logger` to log messages to the console
+- and more!
 
 Refer to the [API reference](https://wxt.dev/api/reference/wxt/interfaces/wxt.html) for a complete list of properties and functions available.
 
@@ -369,9 +368,9 @@ export default defineWxtModule({
 
 You should also look through the code of modules other people have written and published. Here's some examples:
 
-* [`@wxt-dev/auto-icons`](https://github.com/wxt-dev/wxt/blob/main/packages/auto-icons)
-* [`@wxt-dev/i18n`](https://github.com/wxt-dev/wxt/blob/main/packages/i18n)
-* [`@wxt-dev/module-vue`](https://github.com/wxt-dev/wxt/blob/main/packages/module-vue)
-* [`@wxt-dev/module-solid`](https://github.com/wxt-dev/wxt/blob/main/packages/module-solid)
-* [`@wxt-dev/module-react`](https://github.com/wxt-dev/wxt/blob/main/packages/module-react)
-* [`@wxt-dev/module-svelte`](https://github.com/wxt-dev/wxt/blob/main/packages/module-svelte)
+- [`@wxt-dev/auto-icons`](https://github.com/wxt-dev/wxt/blob/main/packages/auto-icons)
+- [`@wxt-dev/i18n`](https://github.com/wxt-dev/wxt/blob/main/packages/i18n)
+- [`@wxt-dev/module-vue`](https://github.com/wxt-dev/wxt/blob/main/packages/module-vue)
+- [`@wxt-dev/module-solid`](https://github.com/wxt-dev/wxt/blob/main/packages/module-solid)
+- [`@wxt-dev/module-react`](https://github.com/wxt-dev/wxt/blob/main/packages/module-react)
+- [`@wxt-dev/module-svelte`](https://github.com/wxt-dev/wxt/blob/main/packages/module-svelte)

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/hooks"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/hooks.md for this page in Markdown format
 
 # Hooks [​](https://wxt.dev/guide/essentials/config/hooks.html#hooks)
@@ -61,7 +59,7 @@ plaintext
 
 Changing execution order is simple:
 
-* Prefix your user modules with a number (lower numbers are loaded first):
+- Prefix your user modules with a number (lower numbers are loaded first):
 
   html
 
@@ -70,7 +68,8 @@ Changing execution order is simple:
      📄 0.my-module.ts
      📄 1.another-module.ts
   ```
-* If you need to run an NPM module after user modules, just make it a user module and prefix the filename with a number!
+
+- If you need to run an NPM module after user modules, just make it a user module and prefix the filename with a number!
 
   ts
 

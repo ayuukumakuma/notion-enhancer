@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefiniti
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/UnlistedScriptDefinition.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > UnlistedScriptDefinition
@@ -14,17 +12,17 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#properties)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#exclude)
-  + [globalName](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#globalname)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#include)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#methods)
-  + [main()](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#main)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#properties)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#exclude)
+  - [globalName](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#globalname)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#include)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#methods)
+  - [main()](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#main)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#extends)
 
-* [`BaseScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/basescriptentrypointoptions.html)
+- [`BaseScriptEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/basescriptentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#properties)
 
@@ -62,10 +60,10 @@ This option is relevant for scripts inserted into the page context where the def
 
 Available options:
 
-* `true`: automatically generate a name for the IIFE based on the entrypoint name
-* `false`: Output the IIFE without a variable name, making it anonymous. This is the safest option to avoid conflicts with existing variables on the page. This will become the default in a future version of WXT.
-* `string`: Use the provided string as the global variable name.
-* `function`: A function that receives the entrypoint and returns a string to use as the variable name.
+- `true`: automatically generate a name for the IIFE based on the entrypoint name
+- `false`: Output the IIFE without a variable name, making it anonymous. This is the safest option to avoid conflicts with existing variables on the page. This will become the default in a future version of WXT.
+- `string`: Use the provided string as the global variable name.
+- `function`: A function that receives the entrypoint and returns a string to use as the variable name.
 
 #### Default [​](https://wxt.dev/api/reference/wxt/interfaces/unlistedscriptdefinition.html#default-1)
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/assets"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/assets.md for this page in Markdown format
 
 # Assets [​](https://wxt.dev/guide/essentials/assets.html#assets)
@@ -109,7 +107,7 @@ jsx
 
 WARNING
 
-Assets in the `public/` directory are ***not*** accessible in content scripts by default. To use a public asset in a content script, you must add it to your manifest's [`web_accessible_resources` array](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#web-accessible-resources).
+Assets in the `public/` directory are **_not_** accessible in content scripts by default. To use a public asset in a content script, you must add it to your manifest's [`web_accessible_resources` array](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#web-accessible-resources).
 
 ## Inside Content Scripts [​](https://wxt.dev/guide/essentials/assets.html#inside-content-scripts)
 

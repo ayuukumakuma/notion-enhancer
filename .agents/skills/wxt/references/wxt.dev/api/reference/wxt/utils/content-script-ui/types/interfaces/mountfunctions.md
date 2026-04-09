@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/int
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/types/interfaces/MountFunctions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/types](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/index.html) > MountFunctions
@@ -14,15 +12,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#properties)
-  + [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#automount)
-  + [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#mount)
-  + [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#remove)
+- [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#properties)
+  - [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#automount)
+  - [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#mount)
+  - [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#remove)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#extends)
 
-* [`BaseMountFunctions`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/basemountfunctions.html)
+- [`BaseMountFunctions`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/basemountfunctions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/mountfunctions.html#properties)
 

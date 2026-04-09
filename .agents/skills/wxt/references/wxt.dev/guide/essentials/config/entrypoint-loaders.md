@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/entrypoint-loaders"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/entrypoint-loaders.md for this page in Markdown format
 
 # Entrypoint Loaders [​](https://wxt.dev/guide/essentials/config/entrypoint-loaders.html#entrypoint-loaders)
@@ -20,7 +18,7 @@ WXT does several pre-processing steps to try and prevent errors during this proc
 2. Use `@webext-core/fake-browser` to create a fake version of the `chrome` and `browser` globals expected by extensions.
 3. Pre-process the JS/TS code, stripping out the `main` function then tree-shaking unused code from the file
 
-However, this process is not perfect. It doesn't setup all the globals found in the browser and the APIs may behave differently. As such, ***you should avoid using browser or extension APIs outside the `main` function of your entrypoints!*** See [Entrypoint Limitations](https://wxt.dev/guide/essentials/extension-apis.html#entrypoint-limitations) for more details.
+However, this process is not perfect. It doesn't setup all the globals found in the browser and the APIs may behave differently. As such, **_you should avoid using browser or extension APIs outside the `main` function of your entrypoints!_** See [Entrypoint Limitations](https://wxt.dev/guide/essentials/extension-apis.html#entrypoint-limitations) for more details.
 
 TIP
 

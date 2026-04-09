@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrate
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/integrated.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/content-script-ui/integrated
@@ -16,15 +14,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Interfaces [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/index.html#interfaces)
 
-* [IntegratedContentScriptUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html)
+- [IntegratedContentScriptUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/interfaces/integratedcontentscriptui.html)
 
 ### Type Aliases [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/index.html#type-aliases)
 
-* [IntegratedContentScriptUiOptions](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/type-aliases/integratedcontentscriptuioptions.html)
+- [IntegratedContentScriptUiOptions](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/type-aliases/integratedcontentscriptuioptions.html)
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/index.html#functions)
 
-* [createIntegratedUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/functions/createintegratedui.html)
+- [createIntegratedUi](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/functions/createintegratedui.html)
 
 ---
 

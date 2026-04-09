@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointopt
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/SidepanelEntrypointOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > SidepanelEntrypointOptions
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#properties)
-  + [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#browserstyle)
-  + [defaultIcon](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#defaulticon)
-  + [defaultTitle](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#defaulttitle)
-  + [exclude](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#exclude)
-  + [include](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#include)
-  + [openAtInstall](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#openatinstall)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#properties)
+  - [browserStyle](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#browserstyle)
+  - [defaultIcon](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#defaulticon)
+  - [defaultTitle](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#defaulttitle)
+  - [exclude](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#exclude)
+  - [include](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#include)
+  - [openAtInstall](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#openatinstall)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#extends)
 
-* [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
+- [`BaseEntrypointOptions`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypointoptions.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/sidepanelentrypointoptions.html#properties)
 

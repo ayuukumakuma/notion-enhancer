@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/type-aliases/usermanifest"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/type-aliases/UserManifest.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > UserManifest
@@ -24,85 +22,85 @@ Manifest customization available in the `wxt.config.ts` file. You cannot configu
 
 #### Type declaration [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#type-declaration-1)
 
-##### browser\_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style)
+##### browser_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style)
 
-> **browser\_style**?: `boolean`
+> **browser_style**?: `boolean`
 
-### browser\_action [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-action)
+### browser_action [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-action)
 
-> **browser\_action**?: `Browser.runtime.ManifestV2`[`"browser_action"`] & `object`
+> **browser_action**?: `Browser.runtime.ManifestV2`[`"browser_action"`] & `object`
 
 #### Type declaration [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#type-declaration-2)
 
-##### browser\_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style-1)
+##### browser_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style-1)
 
-> **browser\_style**?: `boolean`
+> **browser_style**?: `boolean`
 
-### browser\_specific\_settings [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings)
+### browser_specific_settings [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings)
 
-> **browser\_specific\_settings**?: `object`
+> **browser_specific_settings**?: `object`
 
-### browser\_specific\_settings.gecko [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko)
+### browser_specific_settings.gecko [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko)
 
-> **browser\_specific\_settings.gecko**?: `object`
+> **browser_specific_settings.gecko**?: `object`
 
-### browser\_specific\_settings.gecko.id [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-id)
+### browser_specific_settings.gecko.id [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-id)
 
-> **browser\_specific\_settings.gecko.id**?: `string`
+> **browser_specific_settings.gecko.id**?: `string`
 
-### browser\_specific\_settings.gecko.strict\_max\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-strict-max-version)
+### browser_specific_settings.gecko.strict_max_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-strict-max-version)
 
-> **browser\_specific\_settings.gecko.strict\_max\_version**?: `string`
+> **browser_specific_settings.gecko.strict_max_version**?: `string`
 
-### browser\_specific\_settings.gecko.strict\_min\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-strict-min-version)
+### browser_specific_settings.gecko.strict_min_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-strict-min-version)
 
-> **browser\_specific\_settings.gecko.strict\_min\_version**?: `string`
+> **browser_specific_settings.gecko.strict_min_version**?: `string`
 
-### browser\_specific\_settings.gecko.update\_url [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-update-url)
+### browser_specific_settings.gecko.update_url [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-update-url)
 
-> **browser\_specific\_settings.gecko.update\_url**?: `string`
+> **browser_specific_settings.gecko.update_url**?: `string`
 
-### browser\_specific\_settings.gecko\_android [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android)
+### browser_specific_settings.gecko_android [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android)
 
-> **browser\_specific\_settings.gecko\_android**?: `object`
+> **browser_specific_settings.gecko_android**?: `object`
 
-### browser\_specific\_settings.gecko\_android.strict\_max\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android-strict-max-version)
+### browser_specific_settings.gecko_android.strict_max_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android-strict-max-version)
 
-> **browser\_specific\_settings.gecko\_android.strict\_max\_version**?: `string`
+> **browser_specific_settings.gecko_android.strict_max_version**?: `string`
 
-### browser\_specific\_settings.gecko\_android.strict\_min\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android-strict-min-version)
+### browser_specific_settings.gecko_android.strict_min_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-gecko-android-strict-min-version)
 
-> **browser\_specific\_settings.gecko\_android.strict\_min\_version**?: `string`
+> **browser_specific_settings.gecko_android.strict_min_version**?: `string`
 
-### browser\_specific\_settings.safari [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari)
+### browser_specific_settings.safari [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari)
 
-> **browser\_specific\_settings.safari**?: `object`
+> **browser_specific_settings.safari**?: `object`
 
-### browser\_specific\_settings.safari.strict\_max\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari-strict-max-version)
+### browser_specific_settings.safari.strict_max_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari-strict-max-version)
 
-> **browser\_specific\_settings.safari.strict\_max\_version**?: `string`
+> **browser_specific_settings.safari.strict_max_version**?: `string`
 
-### browser\_specific\_settings.safari.strict\_min\_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari-strict-min-version)
+### browser_specific_settings.safari.strict_min_version [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-specific-settings-safari-strict-min-version)
 
-> **browser\_specific\_settings.safari.strict\_min\_version**?: `string`
+> **browser_specific_settings.safari.strict_min_version**?: `string`
 
-### page\_action [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#page-action)
+### page_action [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#page-action)
 
-> **page\_action**?: `Browser.runtime.ManifestV2`[`"page_action"`] & `object`
+> **page_action**?: `Browser.runtime.ManifestV2`[`"page_action"`] & `object`
 
 #### Type declaration [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#type-declaration-3)
 
-##### browser\_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style-2)
+##### browser_style [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#browser-style-2)
 
-> **browser\_style**?: `boolean`
+> **browser_style**?: `boolean`
 
 ### permissions [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#permissions)
 
 > **permissions**?: (`Browser.runtime.ManifestPermissions` | `string` & `Record`<`never`, `never`>)[]
 
-### web\_accessible\_resources [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#web-accessible-resources)
+### web_accessible_resources [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#web-accessible-resources)
 
-> **web\_accessible\_resources**?: `string`[] | `Browser.runtime.ManifestV3`[`"web_accessible_resources"`]
+> **web_accessible_resources**?: `string`[] | `Browser.runtime.ManifestV3`[`"web_accessible_resources"`]
 
 ## Source [​](https://wxt.dev/api/reference/wxt/type-aliases/usermanifest.html#source)
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstora
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/storage/interfaces/WxtStorage.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/storage](https://wxt.dev/api/reference/wxt/utils/storage/index.html) > WxtStorage
@@ -14,24 +12,24 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#contents)
 
-* [Methods](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#methods)
-  + [clear()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#clear)
-  + [defineItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#defineitem)
-  + [getItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getitem)
-  + [getItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getitems)
-  + [getMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getmeta)
-  + [getMetas()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getmetas)
-  + [removeItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removeitem)
-  + [removeItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removeitems)
-  + [removeMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removemeta)
-  + [restoreSnapshot()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#restoresnapshot)
-  + [setItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setitem)
-  + [setItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setitems)
-  + [setMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setmeta)
-  + [setMetas()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setmetas)
-  + [snapshot()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#snapshot)
-  + [unwatch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#unwatch)
-  + [watch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#watch)
+- [Methods](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#methods)
+  - [clear()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#clear)
+  - [defineItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#defineitem)
+  - [getItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getitem)
+  - [getItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getitems)
+  - [getMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getmeta)
+  - [getMetas()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#getmetas)
+  - [removeItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removeitem)
+  - [removeItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removeitems)
+  - [removeMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#removemeta)
+  - [restoreSnapshot()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#restoresnapshot)
+  - [setItem()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setitem)
+  - [setItems()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setitems)
+  - [setMeta()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setmeta)
+  - [setMetas()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#setmetas)
+  - [snapshot()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#snapshot)
+  - [unwatch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#unwatch)
+  - [watch()](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#watch)
 
 ## Methods [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/wxtstorage.html#methods)
 

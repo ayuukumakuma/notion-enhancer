@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtmodule"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtModule.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtModule
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#contents)
 
-* [Extended By](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#extended-by)
-* [Type parameters](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#properties)
-  + [configKey](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#configkey)
-  + [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#hooks)
-  + [imports](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#imports)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#name)
-  + [setup](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#setup)
+- [Extended By](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#extended-by)
+- [Type parameters](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#properties)
+  - [configKey](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#configkey)
+  - [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#hooks)
+  - [imports](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#imports)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#name)
+  - [setup](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#setup)
 
 ## Extended By [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#extended-by)
 
-* [`WxtModuleWithMetadata`](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html)
+- [`WxtModuleWithMetadata`](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html)
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html#type-parameters)
 

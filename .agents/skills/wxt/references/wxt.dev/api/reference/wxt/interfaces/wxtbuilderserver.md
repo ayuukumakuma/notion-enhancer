@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtBuilderServer.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtBuilderServer
@@ -14,14 +12,14 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#properties)
-  + [watcher](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#watcher)
-  + [ws](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#ws)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#methods)
-  + [close()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#close)
-  + [listen()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#listen)
-  + [on()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#on-1)
-  + [transformHtml()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#transformhtml)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#properties)
+  - [watcher](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#watcher)
+  - [ws](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#ws)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#methods)
+  - [close()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#close)
+  - [listen()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#listen)
+  - [on()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#on-1)
+  - [transformHtml()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#transformhtml)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilderserver.html#properties)
 

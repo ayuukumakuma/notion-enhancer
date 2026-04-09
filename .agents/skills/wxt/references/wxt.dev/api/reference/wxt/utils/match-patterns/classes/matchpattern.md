@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matc
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/match-patterns/classes/MatchPattern.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/match-patterns](https://wxt.dev/api/reference/wxt/utils/match-patterns/index.html) > MatchPattern
@@ -16,25 +14,25 @@ Class for parsing and performing operations on match patterns.
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#contents)
 
-* [Example](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#example)
-* [Constructors](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#constructors)
-  + [new MatchPattern(matchPattern)](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#new-matchpatternmatchpattern)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#properties)
-  + [convertPatternToRegex](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#convertpatterntoregex)
-  + [escapeForRegex](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#escapeforregex)
-  + [hostnameMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#hostnamematch)
-  + [isAllUrls](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isallurls)
-  + [isFileMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isfilematch)
-  + [isFtpMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isftpmatch)
-  + [isHostPathMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishostpathmatch)
-  + [isHttpMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishttpmatch)
-  + [isHttpsMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishttpsmatch)
-  + [isUrnMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isurnmatch)
-  + [pathnameMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#pathnamematch)
-  + [protocolMatches](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#protocolmatches)
-  + [PROTOCOLS](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#protocols)
-* [Methods](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#methods)
-  + [includes()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#includes)
+- [Example](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#example)
+- [Constructors](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#constructors)
+  - [new MatchPattern(matchPattern)](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#new-matchpatternmatchpattern)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#properties)
+  - [convertPatternToRegex](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#convertpatterntoregex)
+  - [escapeForRegex](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#escapeforregex)
+  - [hostnameMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#hostnamematch)
+  - [isAllUrls](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isallurls)
+  - [isFileMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isfilematch)
+  - [isFtpMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isftpmatch)
+  - [isHostPathMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishostpathmatch)
+  - [isHttpMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishttpmatch)
+  - [isHttpsMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#ishttpsmatch)
+  - [isUrnMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#isurnmatch)
+  - [pathnameMatch](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#pathnamematch)
+  - [protocolMatches](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#protocolmatches)
+  - [PROTOCOLS](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#protocols)
+- [Methods](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#methods)
+  - [includes()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#includes)
 
 ## Example [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#example)
 
@@ -63,7 +61,7 @@ The match pattern to parse.
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:22
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:22
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#properties)
 
@@ -73,7 +71,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-1)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:33
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:33
 
 ---
 
@@ -83,7 +81,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-2)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:34
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:34
 
 ---
 
@@ -93,7 +91,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-3)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:13
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:13
 
 ---
 
@@ -103,7 +101,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-4)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:15
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:15
 
 ---
 
@@ -113,7 +111,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-5)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:30
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:30
 
 ---
 
@@ -123,7 +121,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-6)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:31
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:31
 
 ---
 
@@ -133,7 +131,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-7)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:29
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:29
 
 ---
 
@@ -143,7 +141,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-8)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:27
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:27
 
 ---
 
@@ -153,7 +151,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-9)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:28
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:28
 
 ---
 
@@ -163,7 +161,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-10)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:32
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:32
 
 ---
 
@@ -173,7 +171,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-11)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:14
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:14
 
 ---
 
@@ -183,7 +181,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-12)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:12
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:12
 
 ---
 
@@ -193,7 +191,7 @@ node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-13)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:11
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:11
 
 ## Methods [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#methods)
 
@@ -209,7 +207,7 @@ Check if a URL is included in a pattern.
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/matchpattern.html#source-14)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:26
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:26
 
 ---
 

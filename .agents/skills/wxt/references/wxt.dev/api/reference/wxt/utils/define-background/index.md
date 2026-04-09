@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/define-background/index"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/define-background.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/define-background
@@ -16,7 +14,7 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/define-background/index.html#functions)
 
-* [defineBackground](https://wxt.dev/api/reference/wxt/utils/define-background/functions/definebackground.html)
+- [defineBackground](https://wxt.dev/api/reference/wxt/utils/define-background/functions/definebackground.html)
 
 ---
 

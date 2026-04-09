@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtBuilder.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtBuilder
@@ -14,14 +12,14 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#properties)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#name)
-  + [version](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#version)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#methods)
-  + [build()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#build)
-  + [createServer()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#createserver)
-  + [importEntrypoint()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#importentrypoint)
-  + [importEntrypoints()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#importentrypoints)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#properties)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#name)
+  - [version](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#version)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#methods)
+  - [build()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#build)
+  - [createServer()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#createserver)
+  - [importEntrypoint()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#importentrypoint)
+  - [importEntrypoints()](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#importentrypoints)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxtbuilder.html#properties)
 

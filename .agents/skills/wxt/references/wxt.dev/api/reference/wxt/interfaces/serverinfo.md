@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/serverinfo"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/ServerInfo.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > ServerInfo
@@ -14,15 +12,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#contents)
 
-* [Extended By](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#extended-by)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#properties)
-  + [host](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#host)
-  + [origin](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#origin)
-  + [port](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#port)
+- [Extended By](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#extended-by)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#properties)
+  - [host](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#host)
+  - [origin](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#origin)
+  - [port](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#port)
 
 ## Extended By [​](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#extended-by)
 
-* [`WxtDevServer`](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html)
+- [`WxtDevServer`](https://wxt.dev/api/reference/wxt/interfaces/wxtdevserver.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/serverinfo.html#properties)
 

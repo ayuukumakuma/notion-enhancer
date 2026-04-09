@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/app-config/functions/useapp
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/app-config/functions/useAppConfig.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/app-config](https://wxt.dev/api/reference/wxt/utils/app-config/index.html) > useAppConfig

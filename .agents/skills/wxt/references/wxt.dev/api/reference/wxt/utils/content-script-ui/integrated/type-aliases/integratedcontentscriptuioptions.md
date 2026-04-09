@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrate
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/integrated/type-aliases/IntegratedContentScriptUiOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/integrated](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/index.html) > IntegratedContentScriptUiOptions
@@ -44,8 +42,8 @@ ts
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/type-aliases/integratedcontentscriptuioptions.html#type-parameters)
 
-| Parameter |
-| --- |
+| Parameter  |
+| ---------- |
 | `TMounted` |
 
 ## Source [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/integrated/type-aliases/integratedcontentscriptuioptions.html#source)

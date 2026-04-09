@@ -4,16 +4,14 @@ source_url: "https://wxt.dev/guide/essentials/unit-testing"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/unit-testing.md for this page in Markdown format
 
 # Unit Testing [​](https://wxt.dev/guide/essentials/unit-testing.html#unit-testing)
 
-* [Vitest](https://wxt.dev/guide/essentials/unit-testing.html#vitest)
-  + [Example Tests](https://wxt.dev/guide/essentials/unit-testing.html#example-tests)
-  + [Mocking WXT APIs](https://wxt.dev/guide/essentials/unit-testing.html#mocking-wxt-apis)
-* [Other Testing Frameworks](https://wxt.dev/guide/essentials/unit-testing.html#other-testing-frameworks)
+- [Vitest](https://wxt.dev/guide/essentials/unit-testing.html#vitest)
+  - [Example Tests](https://wxt.dev/guide/essentials/unit-testing.html#example-tests)
+  - [Mocking WXT APIs](https://wxt.dev/guide/essentials/unit-testing.html#mocking-wxt-apis)
+- [Other Testing Frameworks](https://wxt.dev/guide/essentials/unit-testing.html#other-testing-frameworks)
 
 ## Vitest [​](https://wxt.dev/guide/essentials/unit-testing.html#vitest)
 
@@ -33,17 +31,17 @@ export default defineConfig({
 
 This plugin does several things:
 
-* Polyfills the extension API, `browser`, with an in-memory implementation using [`@webext-core/fake-browser`](https://webext-core.aklinker1.io/fake-browser/installation)
-* Adds all vite config or plugins in `wxt.config.ts`
-* Configures auto-imports (if enabled)
-* Applies internal WXT vite plugins for things like [bundling remote code](https://wxt.dev/guide/essentials/remote-code.html)
-* Sets up global variables provided by WXT (`import.meta.env.BROWSER`, `import.meta.env.MANIFEST_VERSION`, `import.meta.env.IS_CHROME`, etc)
-* Configures aliases (`@/*`, `@@/*`, etc) so imports can be resolved
+- Polyfills the extension API, `browser`, with an in-memory implementation using [`@webext-core/fake-browser`](https://webext-core.aklinker1.io/fake-browser/installation)
+- Adds all vite config or plugins in `wxt.config.ts`
+- Configures auto-imports (if enabled)
+- Applies internal WXT vite plugins for things like [bundling remote code](https://wxt.dev/guide/essentials/remote-code.html)
+- Sets up global variables provided by WXT (`import.meta.env.BROWSER`, `import.meta.env.MANIFEST_VERSION`, `import.meta.env.IS_CHROME`, etc)
+- Configures aliases (`@/*`, `@@/*`, etc) so imports can be resolved
 
 Here are real projects with unit testing setup. Look at the code and tests to see how they're written.
 
-* [`aklinker1/github-better-line-counts`](https://github.com/aklinker1/github-better-line-counts)
-* [`wxt-dev/examples`'s Vitest Example](https://github.com/wxt-dev/examples/tree/main/examples/vitest-unit-testing)
+- [`aklinker1/github-better-line-counts`](https://github.com/aklinker1/github-better-line-counts)
+- [`wxt-dev/examples`'s Vitest Example](https://github.com/wxt-dev/examples/tree/main/examples/vitest-unit-testing)
 
 ### Example Tests [​](https://wxt.dev/guide/essentials/unit-testing.html#example-tests)
 

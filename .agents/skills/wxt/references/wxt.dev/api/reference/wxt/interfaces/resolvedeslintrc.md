@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/ResolvedEslintrc.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > ResolvedEslintrc
@@ -14,10 +12,10 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#properties)
-  + [enabled](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#enabled)
-  + [filePath](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#filepath)
-  + [globalsPropValue](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#globalspropvalue)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#properties)
+  - [enabled](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#enabled)
+  - [filePath](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#filepath)
+  - [globalsPropValue](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#globalspropvalue)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/resolvedeslintrc.html#properties)
 

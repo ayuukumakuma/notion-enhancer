@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/analytics"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /analytics.md for this page in Markdown format
 
 # WXT Analytics [​](https://wxt.dev/analytics.html#wxt-analytics)
@@ -14,8 +12,8 @@ Report analytics events from your web extension extension.
 
 ## Supported Analytics Providers [​](https://wxt.dev/analytics.html#supported-analytics-providers)
 
-* [Google Analytics 4 (Measurement Protocol)](https://wxt.dev/analytics.html#google-analytics-4-measurement-protocol)
-* [Umami](https://wxt.dev/analytics.html#umami)
+- [Google Analytics 4 (Measurement Protocol)](https://wxt.dev/analytics.html#google-analytics-4-measurement-protocol)
+- [Umami](https://wxt.dev/analytics.html#umami)
 
 ## Install With WXT [​](https://wxt.dev/analytics.html#install-with-wxt)
 
@@ -26,6 +24,7 @@ Report analytics events from your web extension extension.
    ```
    pnpm i @wxt-dev/analytics
    ```
+
 2. In your `wxt.config.ts`, add the WXT module:
 
    ts
@@ -35,6 +34,7 @@ Report analytics events from your web extension extension.
      modules: ['@wxt-dev/analytics/module'],
    });
    ```
+
 3. In your `<srcDir>/app.config.ts`, add a provider:
 
    ts
@@ -52,6 +52,7 @@ Report analytics events from your web extension extension.
      },
    });
    ```
+
 4. Then use the `#analytics` module to report events:
 
    ts
@@ -74,6 +75,7 @@ Report analytics events from your web extension extension.
    ```
    pnpm i @wxt-dev/analytics
    ```
+
 2. Create an `analytics` instance:
 
    ts
@@ -88,6 +90,7 @@ Report analytics events from your web extension extension.
      ],
    });
    ```
+
 3. Import your analytics module in the background to initialize the message listener:
 
    ts
@@ -96,6 +99,7 @@ Report analytics events from your web extension extension.
    // background.ts
    import './utils/analytics';
    ```
+
 4. Then use your `analytics` instance to report events:
 
    ts
@@ -271,7 +275,7 @@ const analytics = createAnalytics({
 
 Call `analytics.autoTrack(container)` to automatically track UI events so you don't have to manually add them. Currently it:
 
-* Tracks clicks to elements inside the `container`
+- Tracks clicks to elements inside the `container`
 
 In your extension's HTML pages, you'll want to call it with `document`:
 

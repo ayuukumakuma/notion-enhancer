@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/resources/migrate"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/resources/migrate.md for this page in Markdown format
 
 # Migrate to WXT [​](https://wxt.dev/guide/resources/migrate.html#migrate-to-wxt)
@@ -30,15 +28,15 @@ We recommend reviewing [project structure](https://wxt.dev/guide/essentials/proj
 In general, you'll need to:
 
 Install `wxt`
-   [Extend `.wxt/tsconfig.json`](https://wxt.dev/guide/essentials/config/typescript.html#typescript-configuration) in your project's `tsconfig.json`
-   Update/create `package.json` scripts to use `wxt` (don't forget about `postinstall`)
-   Move entrypoints into `entrypoints/` directory
-   Move assets into either the `assets/` or `public/` directories
-   Move `manifest.json` content into `wxt.config.ts`
-   Convert custom import syntax to be compatible with Vite
-   Add a default export to JS entrypoints (`defineBackground`, `defineContentScript`, or `defineUnlistedScript`)
-   Use the `browser` global instead of `chrome`
-   ⚠️ Compare final `manifest.json` files, making sure permissions and host permissions are unchanged
+  [Extend `.wxt/tsconfig.json`](https://wxt.dev/guide/essentials/config/typescript.html#typescript-configuration) in your project's `tsconfig.json`
+  Update/create `package.json` scripts to use `wxt` (don't forget about `postinstall`)
+  Move entrypoints into `entrypoints/` directory
+  Move assets into either the `assets/` or `public/` directories
+  Move `manifest.json` content into `wxt.config.ts`
+  Convert custom import syntax to be compatible with Vite
+  Add a default export to JS entrypoints (`defineBackground`, `defineContentScript`, or `defineUnlistedScript`)
+  Use the `browser` global instead of `chrome`
+  ⚠️ Compare final `manifest.json` files, making sure permissions and host permissions are unchanged
 
 WARNING
 
@@ -54,8 +52,8 @@ Here's specific steps for other popular frameworks/build tools.
 
 1. Install `wxt`
 2. Move entrypoints into `entrypoints/` directory
-   * For JS entrypoints, merge the named exports used to configure your JS entrypoints into WXT's default export
-   * For HTML entrypoints, you cannot use JSX/Vue/Svelte files directly, you need to create an HTML file and manually create and mount your app. Refer to the [React](https://github.com/wxt-dev/wxt/tree/main/templates/react/entrypoints/popup), [Vue](https://github.com/wxt-dev/wxt/tree/main/templates/vue/entrypoints/popup), and [Svelte](https://github.com/wxt-dev/wxt/tree/main/templates/svelte/src/entrypoints/popup) templates as an example.
+   - For JS entrypoints, merge the named exports used to configure your JS entrypoints into WXT's default export
+   - For HTML entrypoints, you cannot use JSX/Vue/Svelte files directly, you need to create an HTML file and manually create and mount your app. Refer to the [React](https://github.com/wxt-dev/wxt/tree/main/templates/react/entrypoints/popup), [Vue](https://github.com/wxt-dev/wxt/tree/main/templates/vue/entrypoints/popup), and [Svelte](https://github.com/wxt-dev/wxt/tree/main/templates/svelte/src/entrypoints/popup) templates as an example.
 3. Move public `assets/*` into the `public/` directory
 4. If you use CSUI, migrate to WXT's `createContentScriptUi`
 5. Convert Plasmo's custom import resolutions to Vite's

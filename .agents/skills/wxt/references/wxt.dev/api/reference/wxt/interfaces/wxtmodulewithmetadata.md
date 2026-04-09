@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/WxtModuleWithMetadata.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtModuleWithMetadata
@@ -14,20 +12,20 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#extends)
-* [Type parameters](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#properties)
-  + [configKey](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#configkey)
-  + [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#hooks)
-  + [id](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#id)
-  + [imports](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#imports)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#name)
-  + [setup](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#setup)
-  + [type](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#type)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#extends)
+- [Type parameters](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#properties)
+  - [configKey](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#configkey)
+  - [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#hooks)
+  - [id](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#id)
+  - [imports](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#imports)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#name)
+  - [setup](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#setup)
+  - [type](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#type)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#extends)
 
-* [`WxtModule`](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html)<`TOptions`>
+- [`WxtModule`](https://wxt.dev/api/reference/wxt/interfaces/wxtmodule.html)<`TOptions`>
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/interfaces/wxtmodulewithmetadata.html#type-parameters)
 

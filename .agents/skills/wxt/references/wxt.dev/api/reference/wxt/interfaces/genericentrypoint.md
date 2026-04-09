@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/GenericEntrypoint.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > GenericEntrypoint
@@ -14,18 +12,18 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#extends)
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#properties)
-  + [inputPath](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#inputpath)
-  + [name](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#name)
-  + [options](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#options)
-  + [outputDir](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#outputdir)
-  + [skipped](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#skipped)
-  + [type](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#type)
+- [Extends](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#extends)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#properties)
+  - [inputPath](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#inputpath)
+  - [name](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#name)
+  - [options](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#options)
+  - [outputDir](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#outputdir)
+  - [skipped](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#skipped)
+  - [type](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#type)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#extends)
 
-* [`BaseEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html)
+- [`BaseEntrypoint`](https://wxt.dev/api/reference/wxt/interfaces/baseentrypoint.html)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/genericentrypoint.html#properties)
 
@@ -53,14 +51,14 @@ The entrypoint's name. This is the filename or dirname without the type suffix.
 
 Examples:
 
-* `popup.html` → `popup`
-* `options/index.html` → `options`
-* `named.sandbox.html` → `named`
-* `named.sandbox/index.html` → `named`
-* `sandbox.html` → `sandbox`
-* `sandbox/index.html` → `sandbox`
-* `overlay.content.ts` → `overlay`
-* `overlay.content/index.ts` → `overlay`
+- `popup.html` → `popup`
+- `options/index.html` → `options`
+- `named.sandbox.html` → `named`
+- `named.sandbox/index.html` → `named`
+- `sandbox.html` → `sandbox`
+- `sandbox/index.html` → `sandbox`
+- `overlay.content.ts` → `overlay`
+- `overlay.content/index.ts` → `overlay`
 
 The name is used when generating an output file: `<entrypoint.outputDir>/<entrypoint.name>.<ext>`
 

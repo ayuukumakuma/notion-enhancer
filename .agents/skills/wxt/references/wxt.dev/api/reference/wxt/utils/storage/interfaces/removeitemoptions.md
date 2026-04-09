@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeit
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/storage/interfaces/RemoveItemOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/storage](https://wxt.dev/api/reference/wxt/utils/storage/index.html) > RemoveItemOptions
@@ -14,8 +12,8 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#properties)
-  + [removeMeta](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#removemeta)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#properties)
+  - [removeMeta](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#removemeta)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/storage/interfaces/removeitemoptions.html#properties)
 

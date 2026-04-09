@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/logger"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/Logger.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > Logger
@@ -14,16 +12,16 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/logger.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/logger.html#properties)
-  + [level](https://wxt.dev/api/reference/wxt/interfaces/logger.html#level)
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/logger.html#methods)
-  + [debug()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#debug)
-  + [error()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#error)
-  + [fatal()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#fatal)
-  + [info()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#info)
-  + [log()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#log)
-  + [success()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#success)
-  + [warn()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#warn)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/logger.html#properties)
+  - [level](https://wxt.dev/api/reference/wxt/interfaces/logger.html#level)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/logger.html#methods)
+  - [debug()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#debug)
+  - [error()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#error)
+  - [fatal()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#fatal)
+  - [info()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#info)
+  - [log()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#log)
+  - [success()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#success)
+  - [warn()](https://wxt.dev/api/reference/wxt/interfaces/logger.html#warn)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/logger.html#properties)
 

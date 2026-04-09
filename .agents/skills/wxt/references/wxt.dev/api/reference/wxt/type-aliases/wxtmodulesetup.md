@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/type-aliases/wxtmodulesetup"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/type-aliases/WxtModuleSetup.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > WxtModuleSetup
@@ -16,8 +14,8 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/type-aliases/wxtmodulesetup.html#type-parameters)
 
-| Parameter |
-| --- |
+| Parameter                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------- |
 | `TOptions` extends [`WxtModuleOptions`](https://wxt.dev/api/reference/wxt/type-aliases/wxtmoduleoptions.html) |
 
 ## Parameters [​](https://wxt.dev/api/reference/wxt/type-aliases/wxtmodulesetup.html#parameters)

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/wxt"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/Wxt.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > Wxt
@@ -14,15 +12,15 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#properties)
-  + [builder](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#builder)
-  + [config](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#config)
-  + [hook](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#hook)
-  + [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#hooks)
-  + [logger](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#logger)
-  + [pm](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#pm)
-  + [reloadConfig](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#reloadconfig)
-  + [server](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#server)
+- [Properties](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#properties)
+  - [builder](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#builder)
+  - [config](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#config)
+  - [hook](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#hook)
+  - [hooks](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#hooks)
+  - [logger](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#logger)
+  - [pm](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#pm)
+  - [reloadConfig](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#reloadconfig)
+  - [server](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#server)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#properties)
 
@@ -74,7 +72,7 @@ Alias for `wxt.hooks.hook(...)`.
 >
 > ##### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#source-2)
 >
-> node\_modules/.pnpm/hookable@6.0.1/node\_modules/hookable/dist/index.d.mts:39
+> node_modules/.pnpm/hookable@6.0.1/node_modules/hookable/dist/index.d.mts:39
 
 #### Source [​](https://wxt.dev/api/reference/wxt/interfaces/wxt.html#source-3)
 

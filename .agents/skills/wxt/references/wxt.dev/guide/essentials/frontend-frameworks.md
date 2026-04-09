@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/frontend-frameworks"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/frontend-frameworks.md for this page in Markdown format
 
 # Frontend Frameworks [​](https://wxt.dev/guide/essentials/frontend-frameworks.html#frontend-frameworks)
@@ -14,10 +12,10 @@ Are you an LLM? You can read better optimized documentation at /guide/essentials
 
 WXT has preconfigured modules for the most popular frontend frameworks:
 
-* [`@wxt-dev/module-react`](https://github.com/wxt-dev/wxt/tree/main/packages/module-react)
-* [`@wxt-dev/module-vue`](https://github.com/wxt-dev/wxt/tree/main/packages/module-vue)
-* [`@wxt-dev/module-svelte`](https://github.com/wxt-dev/wxt/tree/main/packages/module-svelte)
-* [`@wxt-dev/module-solid`](https://github.com/wxt-dev/wxt/tree/main/packages/module-solid)
+- [`@wxt-dev/module-react`](https://github.com/wxt-dev/wxt/tree/main/packages/module-react)
+- [`@wxt-dev/module-vue`](https://github.com/wxt-dev/wxt/tree/main/packages/module-vue)
+- [`@wxt-dev/module-svelte`](https://github.com/wxt-dev/wxt/tree/main/packages/module-svelte)
+- [`@wxt-dev/module-solid`](https://github.com/wxt-dev/wxt/tree/main/packages/module-solid)
 
 Install the module for your framework, then add it to your config:
 
@@ -116,7 +114,7 @@ Instead, you need to configure the router to run in "hash" mode, where the routi
 
 Refer to your router's docs for information about hash mode and how to enable it. Here's a non-extensive list of a few popular routers:
 
-* [`react-router`](https://reactrouter.com/en/main/routers/create-hash-router)
-* [`vue-router`](https://router.vuejs.org/guide/essentials/history-mode.html#Hash-Mode)
-* [`svelte-spa-router`](https://www.npmjs.com/package/svelte-spa-router#hash-based-routing)
-* [`solid-router`](https://github.com/solidjs/solid-router?tab=readme-ov-file#hash-mode-router)
+- [`react-router`](https://reactrouter.com/en/main/routers/create-hash-router)
+- [`vue-router`](https://router.vuejs.org/guide/essentials/history-mode.html#Hash-Mode)
+- [`svelte-spa-router`](https://www.npmjs.com/package/svelte-spa-router#hash-based-routing)
+- [`solid-router`](https://github.com/solidjs/solid-router?tab=readme-ov-file#hash-mode-router)

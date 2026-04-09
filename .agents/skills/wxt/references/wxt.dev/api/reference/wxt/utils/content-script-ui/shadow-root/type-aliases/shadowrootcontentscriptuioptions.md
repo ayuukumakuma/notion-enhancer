@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-ro
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/shadow-root/type-aliases/ShadowRootContentScriptUiOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/shadow-root](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/index.html) > ShadowRootContentScriptUiOptions
@@ -30,9 +28,9 @@ By default, WXT adds `all: initial` to the shadow root before the rest of your C
 
 WXT resets everything but:
 
-* **`rem` Units**: they continue to scale based off the webpage's HTML `font-size`.
-* **CSS Variables/Custom Properties**: CSS variables defined outside the shadow root can be accessed inside it.
-* **`@font-face` Definitions**: Fonts defined outside the shadow root can be used inside it.
+- **`rem` Units**: they continue to scale based off the webpage's HTML `font-size`.
+- **CSS Variables/Custom Properties**: CSS variables defined outside the shadow root can be accessed inside it.
+- **`@font-face` Definitions**: Fonts defined outside the shadow root can be used inside it.
 
 To disable this behavior and inherit styles from the webpage, set `inheritStyles: true`.
 
@@ -50,8 +48,8 @@ false
 
 When enabled, `event.stopPropagation` will be called on events trying to bubble out of the shadow root.
 
-* Set to `true` to stop the propagation of a default set of events, `["keyup", "keydown", "keypress"]`
-* Set to an array of event names to stop the propagation of a custom list of events
+- Set to `true` to stop the propagation of a default set of events, `["keyup", "keydown", "keypress"]`
+- Set to an array of event names to stop the propagation of a custom list of events
 
 ### mode [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/type-aliases/shadowrootcontentscriptuioptions.html#mode)
 
@@ -95,8 +93,8 @@ Optionally return a value that can be accessed at `ui.mounted` or in the `onRemo
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/type-aliases/shadowrootcontentscriptuioptions.html#type-parameters)
 
-| Parameter |
-| --- |
+| Parameter  |
+| ---------- |
 | `TMounted` |
 
 ## Source [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/type-aliases/shadowrootcontentscriptuioptions.html#source)

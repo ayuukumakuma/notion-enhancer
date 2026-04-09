@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/messaging"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/messaging.md for this page in Markdown format
 
 # Messaging [​](https://wxt.dev/guide/essentials/messaging.html#messaging)
@@ -20,8 +18,8 @@ The vanilla APIs are difficult to use and are a pain point to many new extension
 
 Here are some popular messaging libraries that support all browsers and work with WXT:
 
-* [`trpc-chrome`](https://www.npmjs.com/package/trpc-chrome) - [tRPC](https://trpc.io/) adapter for Web Extensions.
-* [`webext-bridge`](https://www.npmjs.com/package/webext-bridge) - Messaging in WebExtensions made super easy. Out of the box.
-* [`@webext-core/messaging`](https://www.npmjs.com/package/@webext-core/messaging) - Light weight, type-safe wrapper around the web extension messaging APIs
-* [`@webext-core/proxy-service`](https://www.npmjs.com/package/@webext-core/proxy-service) - A type-safe wrapper around the web extension messaging APIs that lets you call a function from anywhere, but execute it in the background.
-* [`Comctx`](https://github.com/molvqingtai/comctx) - Cross-context RPC solution with type safety and flexible adapters.
+- [`trpc-chrome`](https://www.npmjs.com/package/trpc-chrome) - [tRPC](https://trpc.io/) adapter for Web Extensions.
+- [`webext-bridge`](https://www.npmjs.com/package/webext-bridge) - Messaging in WebExtensions made super easy. Out of the box.
+- [`@webext-core/messaging`](https://www.npmjs.com/package/@webext-core/messaging) - Light weight, type-safe wrapper around the web extension messaging APIs
+- [`@webext-core/proxy-service`](https://www.npmjs.com/package/@webext-core/proxy-service) - A type-safe wrapper around the web extension messaging APIs that lets you call a function from anywhere, but execute it in the background.
+- [`Comctx`](https://github.com/molvqingtai/comctx) - Cross-context RPC solution with type safety and flexible adapters.

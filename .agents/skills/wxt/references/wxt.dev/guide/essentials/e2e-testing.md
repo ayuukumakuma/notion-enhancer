@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/e2e-testing"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/e2e-testing.md for this page in Markdown format
 
 # E2E Testing [​](https://wxt.dev/guide/essentials/e2e-testing.html#e2e-testing)

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/split-shadow-root-css/index
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/split-shadow-root-css.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > wxt/utils/split-shadow-root-css
@@ -16,7 +14,7 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ### Functions [​](https://wxt.dev/api/reference/wxt/utils/split-shadow-root-css/index.html#functions)
 
-* [splitShadowRootCss](https://wxt.dev/api/reference/wxt/utils/split-shadow-root-css/functions/splitshadowrootcss)
+- [splitShadowRootCss](https://wxt.dev/api/reference/wxt/utils/split-shadow-root-css/functions/splitshadowrootcss)
 
 ---
 

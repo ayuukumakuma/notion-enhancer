@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-ro
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/ShadowRootContentScriptUi.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/shadow-root](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/index.html) > ShadowRootContentScriptUi
@@ -14,20 +12,20 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#extends)
-* [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#type-parameters)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#properties)
-  + [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#automount)
-  + [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#mount)
-  + [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#mounted)
-  + [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#remove)
-  + [shadow](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#shadow)
-  + [shadowHost](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#shadowhost)
-  + [uiContainer](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#uicontainer)
+- [Extends](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#extends)
+- [Type parameters](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#type-parameters)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#properties)
+  - [autoMount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#automount)
+  - [mount](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#mount)
+  - [mounted](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#mounted)
+  - [remove](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#remove)
+  - [shadow](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#shadow)
+  - [shadowHost](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#shadowhost)
+  - [uiContainer](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#uicontainer)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#extends)
 
-* [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
+- [`ContentScriptUi`](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptui.html)<`TMounted`>
 
 ## Type parameters [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/shadow-root/interfaces/shadowrootcontentscriptui.html#type-parameters)
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/inva
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/match-patterns/classes/InvalidMatchPattern.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/match-patterns](https://wxt.dev/api/reference/wxt/utils/match-patterns/index.html) > InvalidMatchPattern
@@ -14,23 +12,23 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#contents)
 
-* [Extends](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#extends)
-* [Constructors](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#constructors)
-  + [new InvalidMatchPattern(matchPattern, reason)](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#new-invalidmatchpatternmatchpattern-reason)
-* [Properties](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#properties)
-  + [cause](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#cause)
-  + [message](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#message)
-  + [name](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#name)
-  + [stack](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#stack)
-  + [stackTraceLimit](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#stacktracelimit)
-* [Methods](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#methods)
-  + [captureStackTrace()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#capturestacktrace)
-  + [isError()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#iserror)
-  + [prepareStackTrace()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#preparestacktrace)
+- [Extends](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#extends)
+- [Constructors](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#constructors)
+  - [new InvalidMatchPattern(matchPattern, reason)](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#new-invalidmatchpatternmatchpattern-reason)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#properties)
+  - [cause](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#cause)
+  - [message](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#message)
+  - [name](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#name)
+  - [stack](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#stack)
+  - [stackTraceLimit](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#stacktracelimit)
+- [Methods](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#methods)
+  - [captureStackTrace()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#capturestacktrace)
+  - [isError()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#iserror)
+  - [prepareStackTrace()](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#preparestacktrace)
 
 ## Extends [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#extends)
 
-* `Error`
+- `Error`
 
 ## Constructors [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#constructors)
 
@@ -50,7 +48,7 @@ Error.constructor
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source)
 
-node\_modules/.pnpm/@webext-core+match-patterns@1.0.3/node\_modules/@webext-core/match-patterns/lib/index.d.ts:37
+node_modules/.pnpm/@webext-core+match-patterns@1.0.3/node_modules/@webext-core/match-patterns/lib/index.d.ts:37
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#properties)
 
@@ -64,7 +62,7 @@ Error.cause
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-1)
 
-node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.es2022.error.d.ts:26
+node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 ---
 
@@ -78,7 +76,7 @@ Error.message
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-2)
 
-node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.es5.d.ts:1077
+node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.es5.d.ts:1077
 
 ---
 
@@ -92,7 +90,7 @@ Error.name
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-3)
 
-node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.es5.d.ts:1076
+node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.es5.d.ts:1076
 
 ---
 
@@ -106,7 +104,7 @@ Error.stack
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-4)
 
-node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.es5.d.ts:1078
+node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.es5.d.ts:1078
 
 ---
 
@@ -116,7 +114,7 @@ node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 The `Error.stackTraceLimit` property specifies the number of stack frames collected by a stack trace (whether generated by `new Error().stack` or `Error.captureStackTrace(obj)`).
 
-The default value is `10` but may be set to any valid JavaScript number. Changes will affect any stack trace captured *after* the value has been changed.
+The default value is `10` but may be set to any valid JavaScript number. Changes will affect any stack trace captured _after_ the value has been changed.
 
 If set to a non-number value, or set to a negative number, stack traces will not capture any frames.
 
@@ -126,7 +124,7 @@ Error.stackTraceLimit
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-5)
 
-node\_modules/.pnpm/@types+node@20.19.32/node\_modules/@types/node/globals.d.ts:68
+node_modules/.pnpm/@types+node@20.19.32/node_modules/@types/node/globals.d.ts:68
 
 ## Methods [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#methods)
 
@@ -188,7 +186,7 @@ Error.captureStackTrace
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-6)
 
-node\_modules/.pnpm/@types+node@20.19.32/node\_modules/@types/node/globals.d.ts:52
+node_modules/.pnpm/@types+node@20.19.32/node_modules/@types/node/globals.d.ts:52
 
 ---
 
@@ -208,7 +206,7 @@ Error.isError
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-7)
 
-node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/lib.esnext.error.d.ts:23
+node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.esnext.error.d.ts:23
 
 ---
 
@@ -234,7 +232,7 @@ Error.prepareStackTrace
 
 #### Source [​](https://wxt.dev/api/reference/wxt/utils/match-patterns/classes/invalidmatchpattern.html#source-8)
 
-node\_modules/.pnpm/@types+node@20.19.32/node\_modules/@types/node/globals.d.ts:56
+node_modules/.pnpm/@types+node@20.19.32/node_modules/@types/node/globals.d.ts:56
 
 ---
 

@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/guide/essentials/config/environment-variables"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /guide/essentials/config/environment-variables.md for this page in Markdown format
 
 # Environment Variables [​](https://wxt.dev/guide/essentials/config/environment-variables.html#environment-variables)
@@ -48,32 +46,32 @@ Remember to prefix any environment variables with `WXT_` or `VITE_`, otherwise t
 
 WXT provides some custom environment variables based on the current command:
 
-| Usage | Type | Description |
-| --- | --- | --- |
-| `import.meta.env.MANIFEST_VERSION` | `2 │ 3` | The target manifest version |
-| `import.meta.env.BROWSER` | `string` | The target browser |
-| `import.meta.env.CHROME` | `boolean` | Equivalent to `import.meta.env.BROWSER === "chrome"` |
-| `import.meta.env.FIREFOX` | `boolean` | Equivalent to `import.meta.env.BROWSER === "firefox"` |
-| `import.meta.env.SAFARI` | `boolean` | Equivalent to `import.meta.env.BROWSER === "safari"` |
-| `import.meta.env.EDGE` | `boolean` | Equivalent to `import.meta.env.BROWSER === "edge"` |
-| `import.meta.env.OPERA` | `boolean` | Equivalent to `import.meta.env.BROWSER === "opera"` |
+| Usage                              | Type      | Description                                           |
+| ---------------------------------- | --------- | ----------------------------------------------------- |
+| `import.meta.env.MANIFEST_VERSION` | `2 │ 3`   | The target manifest version                           |
+| `import.meta.env.BROWSER`          | `string`  | The target browser                                    |
+| `import.meta.env.CHROME`           | `boolean` | Equivalent to `import.meta.env.BROWSER === "chrome"`  |
+| `import.meta.env.FIREFOX`          | `boolean` | Equivalent to `import.meta.env.BROWSER === "firefox"` |
+| `import.meta.env.SAFARI`           | `boolean` | Equivalent to `import.meta.env.BROWSER === "safari"`  |
+| `import.meta.env.EDGE`             | `boolean` | Equivalent to `import.meta.env.BROWSER === "edge"`    |
+| `import.meta.env.OPERA`            | `boolean` | Equivalent to `import.meta.env.BROWSER === "opera"`   |
 
 You can set the [`targetBrowsers`](https://wxt.dev/api/reference/wxt/interfaces/inlineconfig.html#targetbrowsers) option to make the `BROWSER` variable a more specific type, like `"chrome" | "firefox"`.
 
 You can also access all of [Vite's environment variables](https://vite.dev/guide/env-and-mode.html#env-variables):
 
-| Usage | Type | Description |
-| --- | --- | --- |
-| `import.meta.env.MODE` | `string` | The [mode](https://wxt.dev/guide/essentials/config/build-mode.html) the extension is running in |
-| `import.meta.env.PROD` | `boolean` | When `NODE_ENV='production'` |
-| `import.meta.env.DEV` | `boolean` | Opposite of `import.meta.env.PROD` |
+| Usage                  | Type      | Description                                                                                     |
+| ---------------------- | --------- | ----------------------------------------------------------------------------------------------- |
+| `import.meta.env.MODE` | `string`  | The [mode](https://wxt.dev/guide/essentials/config/build-mode.html) the extension is running in |
+| `import.meta.env.PROD` | `boolean` | When `NODE_ENV='production'`                                                                    |
+| `import.meta.env.DEV`  | `boolean` | Opposite of `import.meta.env.PROD`                                                              |
 
 Other Vite Environment Variables
 
 Vite provides two other environment variables, but they aren't useful in WXT projects:
 
-* `import.meta.env.BASE_URL`: Use `browser.runtime.getURL` instead.
-* `import.meta.env.SSR`: Always `false`.
+- `import.meta.env.BASE_URL`: Use `browser.runtime.getURL` instead.
+- `import.meta.env.SSR`: Always `false`.
 
 ## Manifest [​](https://wxt.dev/guide/essentials/config/environment-variables.html#manifest)
 

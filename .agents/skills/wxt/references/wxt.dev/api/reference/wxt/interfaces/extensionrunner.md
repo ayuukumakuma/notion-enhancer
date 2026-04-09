@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/interfaces/extensionrunner"
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/interfaces/ExtensionRunner.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt](https://wxt.dev/api/reference/wxt.html) > ExtensionRunner
@@ -14,10 +12,10 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#contents)
 
-* [Methods](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#methods)
-  + [canOpen()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#canopen)
-  + [closeBrowser()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#closebrowser)
-  + [openBrowser()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#openbrowser)
+- [Methods](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#methods)
+  - [canOpen()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#canopen)
+  - [closeBrowser()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#closebrowser)
+  - [openBrowser()](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#openbrowser)
 
 ## Methods [​](https://wxt.dev/api/reference/wxt/interfaces/extensionrunner.html#methods)
 

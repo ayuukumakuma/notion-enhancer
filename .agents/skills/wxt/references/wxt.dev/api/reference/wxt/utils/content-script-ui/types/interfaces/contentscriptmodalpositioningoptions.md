@@ -4,8 +4,6 @@ source_url: "https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/int
 fetched_at: "2026-03-06T07:09:09.689083+00:00"
 ---
 
-
-
 Are you an LLM? You can read better optimized documentation at /api/reference/wxt/utils/content-script-ui/types/interfaces/ContentScriptModalPositioningOptions.md for this page in Markdown format
 
 [API](https://wxt.dev/api/reference/index.html) > [wxt/utils/content-script-ui/types](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/index.html) > ContentScriptModalPositioningOptions
@@ -14,9 +12,9 @@ Are you an LLM? You can read better optimized documentation at /api/reference/wx
 
 ## Contents [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#contents)
 
-* [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#properties)
-  + [position](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#position)
-  + [zIndex](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#zindex)
+- [Properties](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#properties)
+  - [position](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#position)
+  - [zIndex](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#zindex)
 
 ## Properties [​](https://wxt.dev/api/reference/wxt/utils/content-script-ui/types/interfaces/contentscriptmodalpositioningoptions.html#properties)
 
