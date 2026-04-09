@@ -1,5 +1,5 @@
 {
-  "name": "browser-extension-template",
+  "name": "notion-enhancer",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -8,13 +8,17 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "turndown": "^7.2.4"
   },
   "devDependencies": {
+    "@types/jsdom": "^28.0.1",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.5",
+    "@types/turndown": "^5.0.6",
     "@wxt-dev/module-react": "^1.1.5",
     "esbuild": "^0.28.0",
+    "jsdom": "^29.0.2",
     "npm-run-all2": "^8.0.4",
     "typescript": "^5.9.3",
     "vite-plus": "^0.1.16",

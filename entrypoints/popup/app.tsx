@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { browser } from "wxt/browser";
 
-import { extensionDescription, extensionName } from "../../lib/template-metadata";
-import { pingBackground, type TemplatePongMessage } from "../../lib/template-protocol";
+import { extensionDescription, extensionName } from "../../lib/notion-enhancer-metadata";
+import { pingBackground, type NotionEnhancerPongMessage } from "../../lib/notion-enhancer-protocol";
 
 type PingState =
   | {
@@ -12,7 +12,7 @@ type PingState =
   | {
       status: "success";
       detail: string;
-      response: TemplatePongMessage;
+      response: NotionEnhancerPongMessage;
     }
   | {
       status: "error";
@@ -21,10 +21,11 @@ type PingState =
 
 const initialState: PingState = {
   status: "idle",
-  detail: "Use the button below to verify that popup and background are wired.",
+  detail:
+    "Notion のページを開いてトップバーの「MD コピー」ボタンを使うとページ内容を Markdown でコピーできます。",
 };
 
-const formatSuccess = (response: TemplatePongMessage): string =>
+const formatSuccess = (response: NotionEnhancerPongMessage): string =>
   `Connected to ${response.browser} (MV${response.manifestVersion}).`;
 
 const getErrorMessage = (error: unknown): string => {
@@ -89,7 +90,7 @@ const App = () => {
   return (
     <main className="popup-shell">
       <section className="card">
-        <p className="eyebrow">WXT + React</p>
+        <p className="eyebrow">Notion Enhancer</p>
         <h1>{extensionName}</h1>
         <p className="description">{extensionDescription}</p>
         <div className={`status status--${state.status}`}>

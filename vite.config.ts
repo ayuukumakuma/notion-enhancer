@@ -26,4 +26,7 @@ export default defineConfig({
     include: ["tests/**/*.spec.ts"],
     exclude: [".output/**", ".wxt/**"],
   },
+  fmt: {
+    ignorePatterns: ["*.md"],
+  },
 });

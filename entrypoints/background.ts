@@ -1,11 +1,11 @@
 import { browser } from "wxt/browser";
 
-import { extensionName } from "../lib/template-metadata";
+import { extensionName } from "../lib/notion-enhancer-metadata";
 import {
   createPongMessage,
   isPingMessage,
-  type TemplatePongMessage,
-} from "../lib/template-protocol";
+  type NotionEnhancerPongMessage,
+} from "../lib/notion-enhancer-protocol";
 
 export interface BackgroundApi {
   runtime: {
@@ -17,7 +17,7 @@ export interface BackgroundApi {
         listener: (
           message: unknown,
           sender: unknown,
-          sendResponse: (response: TemplatePongMessage) => void,
+          sendResponse: (response: NotionEnhancerPongMessage) => void,
         ) => boolean | undefined,
       ) => void;
     };
@@ -31,7 +31,7 @@ export const createMessageHandler =
   ): ((
     message: unknown,
     sender: unknown,
-    sendResponse: (response: TemplatePongMessage) => void,
+    sendResponse: (response: NotionEnhancerPongMessage) => void,
   ) => boolean | undefined) =>
   (message, _sender, sendResponse) => {
     if (!isPingMessage(message)) {

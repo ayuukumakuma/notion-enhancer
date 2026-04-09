@@ -5,7 +5,7 @@ import {
   registerBackground,
   type BackgroundApi,
 } from "../entrypoints/background";
-import { createPingMessage, createPongMessage } from "../lib/template-protocol";
+import { createPingMessage, createPongMessage } from "../lib/notion-enhancer-protocol";
 
 describe("registerBackground", () => {
   it("registers install and message listeners", () => {

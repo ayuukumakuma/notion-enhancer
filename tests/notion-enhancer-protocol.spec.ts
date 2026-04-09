@@ -1,6 +1,10 @@
 import { describe, expect, it, vi } from "vite-plus/test";
 
-import { createPingMessage, createPongMessage, pingBackground } from "../lib/template-protocol";
+import {
+  createPingMessage,
+  createPongMessage,
+  pingBackground,
+} from "../lib/notion-enhancer-protocol";
 
 describe("pingBackground", () => {
   it("sends a ping message and resolves the typed response", async () => {

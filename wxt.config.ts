@@ -1,6 +1,10 @@
 import { defineConfig } from "wxt";
 
-import { extensionDescription, extensionName, manifestIconPath } from "./lib/template-metadata";
+import {
+  extensionDescription,
+  extensionName,
+  manifestIconPath,
+} from "./lib/notion-enhancer-metadata";
 
 export const manifest = {
   name: extensionName,
@@ -11,6 +15,7 @@ export const manifest = {
     48: manifestIconPath,
     128: manifestIconPath,
   },
+  permissions: ["clipboardWrite"] as const,
 };
 
 const config = defineConfig({

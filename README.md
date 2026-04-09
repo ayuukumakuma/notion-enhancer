@@ -1,4 +1,4 @@
-# Browser Extension Template
+# Notion Enhancer
 
 Minimal browser extension template built with WXT, React, pnpm, TypeScript, Vite+, and mise.
 

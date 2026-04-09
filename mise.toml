@@ -1,6 +1,7 @@
 [tools]
 node = "24"
 pnpm = "10"
+viteplus = "latest"
 
 [env]
 _.path = ["./node_modules/.bin"]

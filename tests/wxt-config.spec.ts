@@ -1,11 +1,18 @@
 import { describe, expect, it } from "vite-plus/test";
 
 import config, { manifest } from "../wxt.config";
-import { extensionDescription, extensionName, manifestIconPath } from "../lib/template-metadata";
+import {
+  extensionDescription,
+  extensionName,
+  manifestIconPath,
+} from "../lib/notion-enhancer-metadata";
 
 describe("wxt config", () => {
-  it("keeps the template minimal while enabling React", () => {
+  it("enables React module", () => {
     expect(config.modules).toContain("@wxt-dev/module-react");
+  });
+
+  it("sets extension metadata", () => {
     expect(manifest.name).toBe(extensionName);
     expect(manifest.description).toBe(extensionDescription);
     expect(manifest.icons).toMatchObject({
@@ -14,7 +21,9 @@ describe("wxt config", () => {
       48: manifestIconPath,
       128: manifestIconPath,
     });
-    expect("permissions" in manifest).toBe(false);
-    expect("host_permissions" in manifest).toBe(false);
+  });
+
+  it("includes clipboardWrite permission", () => {
+    expect(manifest.permissions).toContain("clipboardWrite");
   });
 });
