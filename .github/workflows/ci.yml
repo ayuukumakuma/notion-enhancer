@@ -1,0 +1,69 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+        with:
+          persist-credentials: false
+
+      - name: Setup Vite+
+        uses: voidzero-dev/setup-vp@8ecb39174989ce55af90f45cf55b02738599831d
+        with:
+          node-version: "24"
+          cache: true
+
+      - name: Install dependencies
+        run: vp install
+
+      - name: Check
+        run: vp check
+
+      - name: Lint GitHub Actions
+        run: vp run lint:gha
+
+      - name: Test
+        run: vp test
+
+      - name: Build
+        run: vp run build
+
+      - name: Zip Chrome
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: vp run zip:chrome
+
+      - name: Zip Firefox
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: vp run zip:firefox
+
+      - name: Debug package artifacts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          #region agent log
+          echo "Listing .output directory"
+          ls -la .output
+          echo "Listing zip candidates"
+          ls -la .output/*.zip
+          #endregion
+
+      - name: Upload extension packages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: browser-extension-template-packages
+          path: .output/*.zip
+          if-no-files-found: error
+          include-hidden-files: true
