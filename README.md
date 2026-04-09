@@ -1,6 +1,6 @@
 # Notion Enhancer
 
-Minimal browser extension template built with WXT, React, pnpm, TypeScript, Vite+, and mise.
+Chrome MV3 browser extension for copying Notion pages as practical Markdown.
 
 ## Requirements
 
@@ -17,16 +17,6 @@ vp install
 
 This runs `wxt prepare` via `postinstall` and generates the `.wxt/` TypeScript config.
 
-## Initialize with Project Name
-
-Run once after cloning to replace template placeholders with your project name:
-
-```bash
-vp run init <project-name>
-```
-
-Example: `vp run init my-awesome-extension` updates package name, extension display name, protocol identifiers, rewrites `AGENTS.md`, and renames `lib/template-*.ts` files. Run `vp install` afterward to refresh the lockfile.
-
 ## Commands
 
 ```bash
@@ -37,12 +27,19 @@ vp run build
 vp run zip
 ```
 
-## Template Contents
+## What It Does
 
-- `background` entrypoint with install logging and popup message handling
-- React `popup` entrypoint for verifying popup-to-background messaging
-- Minimal manifest config with icons only
-- Vite+ test/check workflow with WXT-aware test setup for background and config behavior
+- injects a `Markdownをコピー` button into the Notion top bar
+- extracts the current page content and converts it with `europa`
+- normalizes Notion-style to-do blocks into Markdown task list items
+- strips obvious hidden UI noise before copying
+- keeps a lightweight popup for usage guidance and background diagnostics
+
+## Usage
+
+1. Open a page on `https://www.notion.so/*` or `https://*.notion.site/*`
+2. Click `Markdownをコピー` in the top bar
+3. Paste the copied Markdown into GitHub, Obsidian, or another Markdown editor
 
 ## Build Outputs
 
@@ -50,37 +47,19 @@ vp run zip
 
 ## Load Unpacked Extension
 
-### Chrome
-
 1. Open `chrome://extensions/`
 2. Enable developer mode
 3. Choose "Load unpacked"
 4. Select `.output/chrome-mv3/`
 
-## Optional Local Browser Overrides
-
-If WXT cannot find your Chrome binary, create an untracked `web-ext.config.ts`:
-
-```ts
-import { defineWebExtConfig } from "wxt";
-
-export default defineWebExtConfig({
-  binaries: {
-    chrome: "/path/to/chrome",
-  },
-});
-```
-
-This file is ignored by git and is intended for machine-local overrides only.
-
 ## Toolchain Notes
 
-- `pnpm` is the package manager for dependency installation and package lifecycle hooks
-- Use `vp install`, `vp check`, and `vp test` as the primary Vite+ entrypoints for dependency setup and verification
-- Use `vp run <task>` for WXT-specific tasks defined in `vite.config.ts`, such as `dev`, `build`, `zip`, and `init`
-- WXT remains responsible for browser-extension dev/build/zip commands
+- `pnpm` is the package manager for dependency installation and lifecycle hooks
+- Use `vp check` before handoff
+- Use `vp run build` after manifest, WXT, or bundling changes
+- WXT remains responsible for Chrome MV3 dev/build/zip commands
 - `mise.toml` manages the local toolchain, including Node.js and pnpm
 
 ## Scope
 
-This template intentionally keeps the initial setup small. Add permissions, options pages, content scripts, storage, or browser-specific behavior only when the actual extension needs them.
+This extension intentionally stays small. It currently focuses on popup guidance, background ping/pong diagnostics, and page-level Markdown copying for Notion. Add permissions, storage, options pages, or browser-specific behavior only when the feature actually needs them.
