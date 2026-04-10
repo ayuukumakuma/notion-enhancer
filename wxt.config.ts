@@ -15,7 +15,7 @@ export const manifest: UserManifest = {
     48: manifestIconPath,
     128: manifestIconPath,
   },
-  permissions: ["clipboardWrite"],
+  permissions: ["clipboardWrite", "storage"],
 };
 
 const config = defineConfig({

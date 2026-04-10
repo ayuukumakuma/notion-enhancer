@@ -23,7 +23,8 @@ describe("wxt config", () => {
     });
   });
 
-  it("includes clipboardWrite permission", () => {
+  it("includes required extension permissions", () => {
     expect(manifest.permissions).toContain("clipboardWrite");
+    expect(manifest.permissions).toContain("storage");
   });
 });
