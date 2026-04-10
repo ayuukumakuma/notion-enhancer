@@ -1,9 +1,11 @@
 export const headingMarkerEnabledStorageKey = "headingMarkerEnabled";
 export const copyMarkdownButtonEnabledStorageKey = "copyMarkdownButtonEnabled";
+export const copyTitleHoverEnabledStorageKey = "copyTitleHoverEnabled";
 
 export interface NotionEnhancerSettings {
   headingMarkerEnabled: boolean;
   copyMarkdownButtonEnabled: boolean;
+  copyTitleHoverEnabled: boolean;
 }
 
 export interface StorageAreaLike {
@@ -30,6 +32,7 @@ export interface StorageChangeEventLike {
 export const defaultNotionEnhancerSettings: NotionEnhancerSettings = {
   headingMarkerEnabled: true,
   copyMarkdownButtonEnabled: true,
+  copyTitleHoverEnabled: true,
 };
 
 const isBoolean = (value: unknown): value is boolean => typeof value === "boolean";
@@ -103,4 +106,21 @@ export const getCopyMarkdownButtonEnabledFromChanges = (
   changes: Record<string, StorageChangeLike>,
 ): boolean | undefined => {
   return getBooleanSettingFromChanges(changes, copyMarkdownButtonEnabledStorageKey);
+};
+
+export const getCopyTitleHoverEnabled = async (storage: StorageAreaLike): Promise<boolean> => {
+  return getBooleanSetting(storage, copyTitleHoverEnabledStorageKey);
+};
+
+export const setCopyTitleHoverEnabled = async (
+  storage: StorageAreaLike,
+  enabled: boolean,
+): Promise<void> => {
+  await setBooleanSetting(storage, copyTitleHoverEnabledStorageKey, enabled);
+};
+
+export const getCopyTitleHoverEnabledFromChanges = (
+  changes: Record<string, StorageChangeLike>,
+): boolean | undefined => {
+  return getBooleanSettingFromChanges(changes, copyTitleHoverEnabledStorageKey);
 };

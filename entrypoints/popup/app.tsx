@@ -4,8 +4,10 @@ import { browser } from "wxt/browser";
 import {
   getCopyMarkdownButtonEnabled,
   getHeadingMarkerEnabled,
+  getCopyTitleHoverEnabled,
   setCopyMarkdownButtonEnabled,
   setHeadingMarkerEnabled,
+  setCopyTitleHoverEnabled,
 } from "../../lib/notion-enhancer-settings";
 import { extensionDescription, extensionName } from "../../lib/notion-enhancer-metadata";
 import { pingBackground, type NotionEnhancerPongMessage } from "../../lib/notion-enhancer-protocol";
@@ -73,6 +75,11 @@ const createCopyMarkdownButtonDetail = (enabled: boolean): string =>
     ? "コピーボタンは有効です。現在の Notion タブにもすぐ反映されます。"
     : "コピーボタンは無効です。現在の Notion タブからもすぐ非表示になります。";
 
+const createCopyTitleHoverDetail = (enabled: boolean): string =>
+  enabled
+    ? "タイトルコピー hover UI は有効です。現在の Notion タブにもすぐ反映されます。"
+    : "タイトルコピー hover UI は無効です。現在の Notion タブからもすぐ非表示になります。";
+
 const getErrorMessage = (error: unknown): string => {
   if (error instanceof Error) {
     return error.message;
@@ -129,16 +136,23 @@ const App = () => {
     enabled: true,
     detail: "見出しマーカー設定を読み込んでいます…",
   });
+  const [copyTitleHoverState, setCopyTitleHoverState] = useState<ToggleSettingState>({
+    status: "loading",
+    enabled: true,
+    detail: "タイトル hover コピー設定を読み込んでいます…",
+  });
 
   useEffect(() => {
     let isMounted = true;
 
     const loadSettings = async (): Promise<void> => {
       try {
-        const [copyMarkdownButtonEnabled, headingMarkerEnabled] = await Promise.all([
-          getCopyMarkdownButtonEnabled(browser.storage.local),
-          getHeadingMarkerEnabled(browser.storage.local),
-        ]);
+        const [copyMarkdownButtonEnabled, headingMarkerEnabled, copyTitleHoverEnabled] =
+          await Promise.all([
+            getCopyMarkdownButtonEnabled(browser.storage.local),
+            getHeadingMarkerEnabled(browser.storage.local),
+            getCopyTitleHoverEnabled(browser.storage.local),
+          ]);
         if (!isMounted) {
           return;
         }
@@ -153,6 +167,11 @@ const App = () => {
           enabled: headingMarkerEnabled,
           detail: createHeadingMarkerDetail(headingMarkerEnabled),
         });
+        setCopyTitleHoverState({
+          status: "ready",
+          enabled: copyTitleHoverEnabled,
+          detail: createCopyTitleHoverDetail(copyTitleHoverEnabled),
+        });
       } catch (error) {
         if (!isMounted) {
           return;
@@ -164,6 +183,11 @@ const App = () => {
           detail: getErrorMessage(error),
         });
         setHeadingMarkerState({
+          status: "error",
+          enabled: true,
+          detail: getErrorMessage(error),
+        });
+        setCopyTitleHoverState({
           status: "error",
           enabled: true,
           detail: getErrorMessage(error),
@@ -249,6 +273,31 @@ const App = () => {
     }
   };
 
+  const handleCopyTitleHoverToggle = async (): Promise<void> => {
+    const nextEnabled = !copyTitleHoverState.enabled;
+
+    setCopyTitleHoverState({
+      status: "saving",
+      enabled: nextEnabled,
+      detail: "タイトル hover コピー設定を保存しています…",
+    });
+
+    try {
+      await setCopyTitleHoverEnabled(browser.storage.local, nextEnabled);
+      setCopyTitleHoverState({
+        status: "ready",
+        enabled: nextEnabled,
+        detail: createCopyTitleHoverDetail(nextEnabled),
+      });
+    } catch (error) {
+      setCopyTitleHoverState({
+        status: "error",
+        enabled: !nextEnabled,
+        detail: getErrorMessage(error),
+      });
+    }
+  };
+
   return (
     <main className="popup-shell">
       <section className="hero-card">
@@ -281,6 +330,18 @@ const App = () => {
         state={headingMarkerState}
         onToggle={() => {
           void handleHeadingMarkerToggle();
+        }}
+      />
+
+      <ToggleCard
+        title="タイトルコピー hover UI"
+        kicker="Title Copy"
+        enabledLabel="タイトルhover: ON"
+        disabledLabel="タイトルhover: OFF"
+        switchLabel="タイトルhoverボタンを切り替える"
+        state={copyTitleHoverState}
+        onToggle={() => {
+          void handleCopyTitleHoverToggle();
         }}
       />
 

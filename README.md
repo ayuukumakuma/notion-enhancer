@@ -31,6 +31,8 @@ vp run zip
 
 - injects a `Markdownをコピー` button into the Notion top bar
 - lets you toggle the copy button from the popup, defaulting to on
+- shows a title-hover action group on the page title
+- lets you toggle title hover actions from the popup, defaulting to on
 - shows Markdown-style heading markers inside Notion pages
 - lets you toggle heading markers from the popup, defaulting to on
 - extracts the current page content and converts it with `europa`
@@ -42,8 +44,9 @@ vp run zip
 
 1. Open a page on `https://www.notion.so/*` or `https://*.notion.site/*`
 2. Click `Markdownをコピー` in the top bar
-3. Use the popup if you want to disable or re-enable the copy button or heading markers
-4. Paste the copied Markdown into GitHub, Obsidian, or another Markdown editor
+3. Hover the page title to copy either the title text or Markdown link
+4. Use the popup if you want to disable or re-enable the copy button, title hover actions, or heading markers
+5. Paste the copied Markdown into GitHub, Obsidian, or another Markdown editor
 
 ## Build Outputs
 
